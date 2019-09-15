@@ -1,0 +1,38 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-07-31T21:15:36.678570"]
+[Round "26"]
+[Result "0-1"]
+[BlackA "ChuckHouse"]
+[BlackB "TandemTurtle"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1"]
+[ResultComment "Player A (TandemTurtle) checkmated"]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "TandemTurtle"]
+[WhiteB "LazyBug-MCTS"]
+
+1B. d4{119.518} 1A. d3{106.579} 1a. Nf6{119.738} 1b. e6{104.929}
+2B. Nf3{118.842} 2A. e4{96.709} 2a. Nc6{119.454} 2b. a6{95.094}
+3B. Nc3{118.191} 3A. Nc3{86.865} 3a. d5{119.191} 3b. Be7{83.645}
+4B. e4{117.532} 4A. exd5{75.429} 4a. Nxd5{118.905} 4b. Nf6{73.775}
+5B. e5{116.853} 5A. Nf3{64.022} 5a. e5{118.657} 5b. d6{62.431}
+6B. exf6{116.167} 6A. Be2{54.177} 6a. Bb4{118.373} 6b. Bxf6{51.05}
+7B. Bd3{115.514} 7A. Bd2{42.712} 7a. Bxc3{118.106} 7b. Nc6{41.293}
+8B. Ne4{114.797} 8A. bxc3{32.889} 8a. O-O{117.792} 8b. Bxd4{31.547}
+9B. Nxd4{114.08} 9A. @h6{23.071} 9a. gxh6{117.493} 10A. Bxh6{22.816}
+10a. N@f5{117.22} 11A. Bxf8{22.579} 11a. Qxf8{116.942} 12A. h3{22.341}
+12a. Nxc3{116.648} 13A. Qd2{22.101} 13a. Nd5{116.385} 14A. Bd1{21.868}
+14a. B@f4{116.099} 15A. O-O{21.633} 15a. Bxd2{115.803} 16A. Nxd2{21.404}
+16a. Qg7{115.544} 17A. Bf3{21.172} 9b. Nxd4{22.57} 17a. Nf4{115.324}
+18A. @e6{20.969} 10B. N@h5{113.583} 18a. Bxe6{115.115} 19A. N@b6{20.716}
+10b. Nc6{22.155} 19a. axb6{114.877} 20A. Nb3{20.512} 11B. Nxg7+{113.083}
+20a. Nxh3+{114.615} 11b. Kd7{21.884} 21A. Kh2{20.265} 21a. @g3+{114.413}
+22A. fxg3{20.054} 12B. N@f6+{112.557} 12b. Qxf6{21.703} 22a. Nxg3{114.113}
+23A. gxh3{19.844} 13B. Nxf6+{112.066} 23a. Nxf1+{113.835} 13b. Ke7{21.437}
+24A. Rxf1{19.599} 24a. Q@g3+{113.64} 25A. Kh1{19.402} 14B. B@g5{111.539}
+14b. B@f4{21.235} 25a. Bxh3{113.352} 26A. N@d8{19.196} 26a. Qg2+{113.152}
+15B. Nd5+{110.938} 27A. Bxg2{18.947} 15b. Kd7{21.024} 27a. Bxg2+{112.912}
+28A. Kh2{18.745} 16B. Bcxf4{110.456} 28a. Bxf1{112.654} 16b. Q@b5{20.733}
+29A. Nxc6{18.484} 29a. Qg2#{112.379} 0-1
+

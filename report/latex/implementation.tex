@@ -1,0 +1,10 @@
+\section{Implementation}
+
+Our implementation is purely python based and using \texttt{keras}~\cite{keras} with \texttt{tensorflow}~\cite{tensorflow} as backend.
+For the move generation, our team developed a fork~\cite{pychesstim} of \texttt{python-chess}~\cite{pychess}, which also came to use in the chess server~\cite{tinyChessServer} of the tournaments.
+While python is great for prototyping, it is suboptimal in terms of efficiency.
+To use the GPU as efficiently as possible, we select and buffer 16 MCTS-nodes and evaluate them at once.
+Additionally, we utilize multithreading to continue collecting nodes while the GPU is evaluating the previous set of nodes.
+Using these two techniques, we were able to reduce the time consumption of the node selection enough to make the network evaluation performed by \texttt{keras} the bottleneck, rendering any further optimization useless.
+On average, we achive a rate of approximately 300 nodes per second.
+LazyBug's code can be found on github~\cite{code}.

@@ -1,0 +1,37 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-09-15T22:38:57.046786"]
+[Round "1"]
+[Result "1-0"]
+[BlackA "LazyBug-Policy"]
+[BlackB "LazyBug-MCTS"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1"]
+[ResultComment "Player a (LazyBug-Policy) checkmated"]
+[TimeControl "300+0"]
+[Variant "Bughouse"]
+[WhiteA "LazyBug-MCTS"]
+[WhiteB "LazyBug-Policy"]
+
+1B. e4{299.982} 1b. e5{294.891} 2B. Nc3{299.948} 1A. e4{287.549}
+1a. Nf6{299.968} 2b. Nc6{284.774} 3B. Nf3{299.913} 2A. Nc3{277.491}
+2a. Nc6{299.952} 3b. Nf6{274.705} 4B. Bc4{299.879} 3A. d4{267.413}
+3a. d5{299.918} 4b. Be7{264.207} 5B. d3{299.846} 4A. exd5{257.357}
+4a. Nxd5{299.872} 5b. O-O{254.143} 6B. Nd5{299.838} 5A. Nf3{247.284}
+5a. e5{299.828} 6b. d6{244.027} 7B. Nxe7+{299.801} 6A. Bb5{242.134}
+6a. Bb4{299.79} 7b. Qxe7{233.985} 8B. Bg5{299.768} 7A. O-O{232.087}
+7a. Bxc3{299.757} 8b. h6{228.903} 9B. Bxf6{299.754} 8A. Nxe5{221.993}
+8a. O-O{299.723} 9b. Qxf6{218.604} 10B. N@d5{299.729} 9A. Bxc6{211.9}
+9a. bxc6{299.714} 10b. Qd8{208.487} 11B. B@h4{299.71} 10A. Nxc6{201.86}
+10a. Qd6{299.693} 11b. @g5{198.34} 12B. @e7{299.681} 11A. B@e5{191.796}
+11a. Qxc6{299.683} 12b. Nxe7{188.24} 13B. Nxe7+{299.647} 12A. Bxg7{181.651}
+12a. Kxg7{299.648} 13b. Qxe7{178.124} 14B. N@d5{299.618} 13A. N@h5+{171.578}
+13a. Kg8{299.627} 14b. Qe6{168.086} 15B. B@f5{299.585} 14A. N@h6+{161.467}
+14a. Qxh6{299.598} 15b. Qxd5{157.984} 16B. Bxd5{299.576} 15A. Bxh6{151.396}
+15a. Q@g6{299.563} 16b. Bxf5{147.89} 17B. exf5{299.553} 16A. @g5{140.875}
+16a. B@g4{299.529} 17b. N@f4{137.822} 18B. Nxg5{299.518} 17A. N@f6+{130.72}
+17a. Nxf6{299.52} 18b. hxg5{127.708} 19B. Bxg5{299.483} 18A. Nxf6+{120.221}
+18a. Kh8{299.499} 19b. Nxd5{116.81} 20B. f6{299.463} 19A. B@g7+{110.143}
+19a. Qxg7{299.488} 20b. Q@g6{107.07} 21B. fxg7{299.445} 20A. Bxg7+{101.051}
+20a. Kxg7{299.451} 21b. Qxg5{98.29} 22B. gxf8=Q+{299.423} 21A. B@h6+{92.887}
+21a. Kg6{299.441} 22b. Rxf8{90.401} 23B. N@e4{299.398} 22A. N@e7#{87.79} 1-0
+

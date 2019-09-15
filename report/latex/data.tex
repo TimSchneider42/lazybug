@@ -1,0 +1,26 @@
+\subsection{Data Representation}
+\label{subsec:rep}
+Prior work\cite{priorwork} has shown that Neural Networks perform better when data is provided as a one hot vector instead of a number.
+Encoding the policy output as one hot allows us to learn a probability distribution over all possible moves instead of just a mapping from the board state to a single move.
+Hence, our moves are encoded as 87 planes of 8x8 chess boards, where each move is represented as exactly one 1 anywhere in the tensor.
+As proposed by AlphaZero\cite{alphazero} we use a relative encoding for all possible moves by taking the start square and the direction and length (if applicable) of the move into account.
+The start square is always encoded in the first two dimensions of the move tensor, while the last dimension (or the plane number) gives information about the type of move.
+Starting with potential queen moves, there are 8 move directions with the highest possible move length being 7, we therefore require 56 planes.
+The next 8 planes represent all possible knight moves, followed by 9 planes for pawn underpromotions.
+Every pawn can either walk straight to be promoted as well as capturing a figure in an angle forward.
+Thus there are 3 planes for promotions to knights, 3 for bishop and 3 for rooks for each color, thus totalling 18.
+Promotions to queens get handled implicitly and are just represented as normal pawn move into the last or first rank, respectively.
+To handle drops, one additional plane for every type of figure except the king is needed.
+Since drops do not have a starting square, the first two dimensions are used to encode the target square of the drop.
+\\\\
+The game state is encoded as two 14x8x8 tensors (one for each board) and a vector containing scalar information about the game, like the pockets, the clocks, castling rights and whose turn it is.
+The tensors each consist of one plane for each figure type of each color, having a 1 at each square occupied by the respective piece type and a 0 elsewhere.
+As we are using a CNN architecture, these tensors are concatenated on their last axis before being passed into the network.
+Additionally we have a plane indicating which pawns are currently allowed to take en passants and one plane indicating which pieces are promoted pawns.
+The en passant capture moves and the promoted pawns could be represented by a slim representation, however we chose here to use the entire board to make the convolutions work similar to regular pawn capture moves.
+For the pockets we use a 2x5 input with a 1 dimensional input for each figure containing the number of pieces a player has, normalized to a value between 0 and 1 with 1 being the maximum number possible.
+Considering pawns, 1 would be 16 pawns available and 0 none.
+The clocks are scaled to minutes before being passed into the network.
+Castling is represented by 2 bits for each color, 1 if a player can castle left or right respectively.
+To make training simpler, we mirror the board, such that the moving player is always on top.
+While it is also an option to simply rotate the board, mirroring yields the advantage that it makes the starting positions of black and white appear equal.

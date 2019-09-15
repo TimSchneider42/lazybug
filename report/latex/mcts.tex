@@ -1,0 +1,67 @@
+\section{Search Algorithm}
+To evaluate the quality of a move in a given position, we use an adapted version of a Monte Carlo Tree Search (MCTS) variant developed in prior work~\cite{alphazero}.
+MCTS is a heuristic search technique, which we use to evaluate the quality of moves in a given board state.
+Instead of traversing the entire game tree from our current position, like Minimax does, MCTS traverses only a small selection of interesting moves.
+If these moves are well chosen, this gives an approximate idea of how well a move will perform.
+To find interesting moves, we query the neural network described in \autoref{sec:pv}, which is also used to evaluate positions at the bottom of the search tree.
+Since moves on the other board can greatly affect the position on the own board, it is necessary to consider these when evaluating potential own moves.
+Thus, we developed a MCTS variant that simulates moves on both boards, picking the player to move next at random.
+\\\\
+The results of these simulations are stored in a tree structure, where nodes represent board states and edges represent moves.
+This tree is initialized containing only a root node, which corresponds to the current board state.
+Each simulation is composed of four steps: selection, expansion, evaluation and backpropagation, on which we elaborate in the following.
+
+\paragraph{Selection}
+Starting from the root node, MCTS utilizes the results from the policy and value network to select an action $a$ to take from the respective game state $s$.
+In the following, we denote the policy output from the perspective of player $p$ as $\pi_p(a|s)$ and the value as $v_p(s)$, respectively.
+To simplify the notation we denote the associated player of an action $a$ by $p(a)$.
+The game state consists of the state of both boards and that the value function always determines the value of the team and not of a single player.
+Each edge $(s,a)$ contains an action value $Q(s,a)$, visit count $N(s,a)$ and prior probability $P(s,a)$, which are defined as follows:
+\begin{align*}
+    Q_p(s,a) &= \frac{1}{N(s,a)} \sum_{i=1}^{n}1(s,a,i)v_p(s_{L}^{i})\\
+    N(s,a) &= \sum_{i=1}^{n}1(s,a,i)\\
+    P_p(s,a) &= \pi_p (a|s)
+\end{align*}
+After selecting the player $p$ to move next, MCTS picks the edge with the highest value of $Q_p(s,a)$ plus a bonus $u_p(s,a)$:
+\begin{equation*}
+    u_p(s,a) \propto \frac{C(s) \sqrt{N(s)} P_p(s,a)}{1+N(s,a)}
+\end{equation*}
+where $N(s)$ is the total visit count of state $s$ and $C(s)$ is the exploration rate, given by
+\begin{equation*}
+    C(s) = c_\textit{init} + \log \left(\frac{1 + N(s) + c_\textit{base}}{c_\textit{base}}\right) + c_\textit{init}
+\end{equation*}
+During the search $C(s)$ is essentially constant but slowly increasing, encouraging exploration over exploitation.
+As we can see, $u_p(s,a)$ is inversely proportional with the visit count $N(s,a)$, therefore encourages diversity in selecting moves, while the action value $Q_p(s,a)$ supports exploitation of good moves.
+This procedure is repeated until an edge $(s_P, a_P)$, that has not been visited before, has been selected or a node that ends the game decisively (e.g. win/loss/draw) has been reached.
+In the latter case, we skip the expansion phase and continue with the evaluation with $s_L = s_P$.
+\\\\
+Additionally to the moves proposed by the policy, a ``sitting'' move is added with a constant probability of 0.01.
+The semantic of this move is that the player decides to wait for the other board to move before making an own move.
+Thus, the value of this move is the value of the best move of the other player.
+Note, that the other player also has the option to sit instead of move, in which case the player with the lowest clock loses.
+Hence, for a rational agent, sitting is only an option if the partner is on the move and not currently sitting or the opponent is on the move and has a lower clock.
+One possible scenario in which the ``sitting'' move might be utilized is when the partner's opponent is low on time and one move from being checkmated.
+Another common scenario is when the partner is on the move and is capable of capturing a piece that can be utilized to checkmate the own opponent.
+
+\paragraph{Expansion}
+In the expansion phase, we expand $s_P$ with a child node $s_L$.
+The child node $s_{L}$, being a new leaf node, is processed once by the supervised-learning policy network $p_{\sigma}$, outputting prior probabilities $P(s,a)$ for all edges $(s_L,a)$ from $s_{L}$.
+Each of the edges is initialized as follows:
+\begin{align*}
+    P_p(s,a) &= \pi_p(s|a)\\
+    Q_p(s,a) &= -1\\
+    N(s,a) &= 0\\
+\end{align*}
+
+\paragraph{Evaluation}
+In the evaluation phase, the new leaf node $s_{L}$ is evaluated by the neural network.
+The resulting value output is stored in $v_p (s_{L})$ and the policy outputs for each move in $\pi_p(a|s_L)$.
+
+\paragraph{Backpropagation}
+After the evaluation, the action value $Q_p(s,a)$ is updated with $v_p(s_{L})$ and the visit count $N(s,a)$ is incremented for all the traversed edges.
+
+\paragraph{Choosing the best move}
+After the final evaluation has been backpropagated, the move with the highest visit count is selected and played on the board.
+If considerably more moves have been visited on the other board than on the own board or a ``sitting'' move has the most visits, we wait for the board to change instead of making a move.
+In that case ``sitting'' is communicated to the partner together with an explanation of the reason.
+This explanation usually contains a suggestion of a move that is better than all moves LazyBug could play in this position.

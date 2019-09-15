@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+C=$1
+args=${@:3}
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+if [ -z "$2" ]
+then
+      dep_arg=""
+else
+      dep_arg="-d $2"
+fi
+$DIR/submit_args $C "$dep_arg" $args

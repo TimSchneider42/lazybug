@@ -1,0 +1,55 @@
+{
+ "tournament_no": 16,
+ "participants": [
+  "group1",
+  "group2",
+  "group3"
+ ],
+ "wins": {
+  "group1": 2,
+  "group2": 0,
+  "group3": 1
+ },
+ "losses": {
+  "group1": 0,
+  "group2": 2,
+  "group3": 1
+ },
+ "draws": {
+  "group1": 0,
+  "group2": 0,
+  "group3": 0
+ },
+ "games": {
+  "1": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "2": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (debug_engine) checkmated"
+  },
+  "3": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  }
+ }
+}

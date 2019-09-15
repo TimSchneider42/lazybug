@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+INPUT_PATHS=$1
+DATABASE=/work/scratch/kurse/kurs00028/$(whoami)/database
+python3 -u bpgn_import.py ${INPUT_PATHS} ${DATABASE} -b 65536

@@ -1,0 +1,26 @@
+\section{Introduction}
+% Introduction
+In modern society, engines are capable of playing many of the classic board games like chess~\cite{deepblue}, checkers~\cite{checkers} or go~\cite{alphago} with superhuman strength.
+In 2016, AlphaGo became the first engine to beat the world champion of Go using supervised learning and deep reinforcement learning\cite{silver2016mastering}.
+Later, AlphaZero\cite{alphazero} was developed as an adaptation of AlphaGo, relying solely on reinforcement learning and capable of learning a variety of different games.
+One of the games learned by AlphaZero is chess, where it has been shown to be capable of beating the 2016 TECE world champion Stockfish \cite{alphazero}.
+This motivated further approaches to beat more dynamic variants of chess like Crazyhouse \cite{Crazyara}.
+In this work we present LazyBug - an engine for the Bughouse chess variant, based on supervised learning and deep reinforcement learning.
+\\\\
+% What is Bughouse?
+The game of Bughouse is played in teams of two on two boards, such that each team has one player on each board.
+Within each team, one player has the white pieces and the other player the black pieces.
+Whenever a piece is taken, it is transferred into the ``pocket'' of the partner of the player who captured it.
+Similar to Crazyhouse, instead of moving a piece any player can always ``drop'' a piece out of his pocket on any empty square on the board.
+Bughouse is played asynchronously on both boards, that is, the players of each board take turns but are never required to wait for the other board (unless they cannot make a feasible move and need material).
+The game ends if any player runs out of time or any player is checkmated by Bughouse rules.
+For further details of the Bughouse rules, please refer to the rule reference used for this work \cite{bughouse_rules}.
+\\\\
+% Challenges
+Compared to regular chess, Bughouse introduces a variety of new challenges for engines to handle.
+Firstly, due to the drops, the number of possible moves every turn increases significantly, making policy learning substantially harder.
+Furthermore, Bughouse is played by four agents instead of two.
+Hence, not only the opponents moves need to be predicted but also the moves of the players partner and his opponent, which makes predicting the game's outcome a hard task.
+The fact that the game is played asynchronously not only increases the prediction uncertainty even more, but also makes time management more complex, since waiting might be the best move at some point in the game.
+Finally, communication with the partner is a very important component of Bughouse, which might decide over victory and defeat if used properly.
+However, communicating with a (potentially human) partner is a non-trivial task and has not been used to its full potential by the existing Bughouse engines we analyzed~\cite{sjeng, sunsetter}.

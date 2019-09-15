@@ -1,0 +1,6 @@
+[submodule "submodules/python-chess"]
+	path = submodules/python-chess
+	url = https://github.com/Homan42/python-chess.git
+[submodule "submodules/tiny-chess-server"]
+	path = submodules/tiny-chess-server
+	url = https://github.com/MoritzWillig/tinyChessServer

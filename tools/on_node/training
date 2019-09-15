@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+ARGS="${@:1}"
+MODEL_PATH=/work/scratch/kurse/kurs00028/rv09ivin/models/$(whoami)
+DATA_PATH=/work/scratch/kurse/kurs00028/rv09ivin/database
+echo "Copying data to $TMP..."
+cp -r $DATA_PATH $TMP/database
+echo "Done copying data."
+python3 -u run_training_generator.py $MODEL_PATH $TMP/database -g 2 ${ARGS}

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+DATE=`date +%Y-%m-%d_%H-%M-%S`
+echo "Starting tournament at $DATE"
+
+cd ../tools/on_node/tournament_files/
+python3 -u run_tournament.py ${@:1}

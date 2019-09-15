@@ -1,0 +1,31 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-08-25T01:06:33.256706"]
+[Round "45"]
+[Result "0-1"]
+[BlackA "ChuckHouse"]
+[BlackB "TJJ-Chess"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1"]
+[ResultComment "Player A (TandemTurtle) checkmated"]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "TandemTurtle"]
+[WhiteB "LazyBug-MCTS"]
+
+1B. e4{119.488} 1A. Nc3{108.459} 1a. e6{119.794} 2A. e4{100.601}
+2a. Nc6{119.602} 3A. d4{94.176} 3a. Nf6{119.397} 4A. d5{86.508}
+4a. exd5{119.193} 1b. Nc6{81.18} 2B. Nc3{118.801} 5A. exd5{78.85}
+5a. Ne5{118.986} 6A. Bf4{70.981} 6a. Ng6{118.788} 7A. Bg5{64.615}
+7a. Bb4{118.578} 8A. Be2{57.004} 8a. d6{118.372} 9A. Nf3{49.164}
+9a. Qe7{118.167} 2b. d5{44.887} 3B. exd5{118.104} 10A. O-O{41.433}
+10a. Bxc3{117.971} 11A. bxc3{32.375} 11a. @h3{117.766} 12A. gxh3{25.964}
+12a. Bxh3{117.557} 13A. Re1{19.569} 13a. O-O{117.349} 14A. Qd4{19.363}
+14a. h6{117.15} 15A. Bxf6{19.164} 15a. Qxf6{116.944} 16A. Qg4{18.969}
+16a. Bxg4{116.736} 17A. Rad1{18.777} 17a. Bxf3{116.531} 18A. Bxf3{18.587}
+18a. Qxf3{116.322} 19A. Re3{18.383} 19a. Qg4+{116.116} 20A. Rg3{18.162}
+20a. Qxd1+{115.912} 21A. Kg2{17.961} 21a. Qxd5+{115.705} 22A. f3{17.771}
+22a. Qd2+{115.455} 23A. Kh1{17.564} 23a. Rae8{115.239} 24A. Rg1{17.363}
+24a. Re3{115.029} 25A. Rg2{17.161} 25a. Re1+{114.827} 26A. Rg1{16.958}
+26a. Rxg1+{114.615} 27A. Kxg1{16.751} 27a. Qe1+{114.397} 28A. Kg2{16.55}
+28a. Nf4#{114.188} 0-1
+

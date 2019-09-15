@@ -1,0 +1,19 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-08-13T22:14:44.790869"]
+[Round "39"]
+[Result "0-1"]
+[BlackA "TandemTurtle"]
+[BlackB "TJJ-Chess"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1"]
+[ResultComment "on board b [1-0]: black ran out of time."]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "TJJ-Chess"]
+[WhiteB "ChuckHouse"]
+
+1B. e4{119.175} 1A. d4{90.558} 1b. Nc6{90.143} 2B. Nc3{118.974} 1a. e6{107.444}
+2b. d5{60.68} 3B. Nf3{118.779} 2A. Nc3{63.461} 2a. Nf6{99.552} 3b. Nd4{31.448}
+4B. Nxd4{118.582} 3A. Rb1{36.505} 3a. Nd5{92.932} 4b. h6{2.66}
+5B. exd5{118.349} 0-1
+

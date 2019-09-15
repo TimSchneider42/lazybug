@@ -1,0 +1,14 @@
+.idea
+.pyc
+__pycache__
+.ipynb_checkpoints
+/venv/
+/KEVIN/
+/models/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+/data/

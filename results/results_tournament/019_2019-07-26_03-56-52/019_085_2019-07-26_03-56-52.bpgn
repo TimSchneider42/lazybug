@@ -1,0 +1,27 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-07-26T11:50:19.329821"]
+[Round "19"]
+[Result "1-0"]
+[BlackA "BlackA"]
+[BlackB "LazyBug-Policy"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1"]
+[ResultComment "on board b [0-1]: white ran out of time."]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "LazyBug-Policy"]
+[WhiteB "WhiteB"]
+
+1A. e4{117.864} 1B. e4{110.25} 1b. Nf6{118.699} 1a. e5{107.997}
+2A. Nc3{117.427} 2B. Nc3{100.488} 2b. Nc6{118.2} 2a. Nc6{97.062}
+3A. Nf3{117.028} 3B. Nf3{91.497} 3b. e6{117.767} 3a. Be7{87.513}
+4A. Bc4{116.539} 4B. d4{80.686} 4b. Bb4{117.321} 4a. Nf6{77.451} 5A. d3{116.04}
+5B. Bd3{70.763} 5b. d5{116.85} 5a. O-O{67.897} 6A. h4{115.599} 6B. e5{59.086}
+6b. Ne4{116.378} 6a. Bc5{58.937} 7A. h5{115.072} 7a. Bxf2+{50.603}
+7B. O-O{48.87} 8A. Kxf2{114.558} 7b. Bxc3{115.884} 8a. Ng4+{41.266}
+9A. Kg1{114.067} 8B. bxc3{38.715} 8b. B@g4{115.367} 9B. Bxe4{29.03}
+9b. dxe4{114.889} 9a. d6{29.705} 10A. h6{113.542} 10B. Ng5{19.531}
+10b. Bxd1{114.341} 10a. gxh6{18.15} 11A. Q@g7+{113.044} 11B. Rxd1{9.947}
+11b. Qxg5{113.901} 11a. Kxg7{5.698} 12A. N@h5+{112.56} 12B. Bxg5{0.181}
+12b. Bd7{113.455} 1-0
+

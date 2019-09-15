@@ -1,0 +1,38 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-08-15T03:40:43.958714"]
+[Round "40"]
+[Result "1-0"]
+[BlackA "ChuckHouse"]
+[BlackB "LazyBug-MCTS"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[QRRBBNNPPPPPPqrrbnnpppppp] w KQkq - 0 1"]
+[ResultComment "Player a (ChuckHouse) checkmated"]
+[SetUp "1"]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "LazyBug-MCTS"]
+[WhiteB "TJJ-Chess"]
+
+1A. e4{119.454} 1a. e6{119.681} 2A. Nc3{118.938} 2a. Nc6{119.47}
+3A. Nf3{118.418} 3a. Nf6{119.258} 4A. d4{117.904} 4a. Bb4{119.054}
+5A. Bd3{117.397} 5a. d5{118.858} 6A. e5{116.893} 6a. Ne4{118.656}
+7A. Bd2{116.395} 7a. Nxf2{118.438} 8A. Kxf2{115.847} 8a. Nxd4{118.239}
+9A. Nxd4{115.327} 9a. Qh4+{118.038} 10A. Kf1{114.828} 10a. Qxd4{117.838}
+11A. Qe2{114.308} 11a. Bd7{117.628} 12A. Be3{113.806} 12a. Qxe5{117.434}
+13A. Bd4{113.309} 13a. Qxd4{117.23} 14A. Nxd5{112.797} 14a. Qxd5{117.029}
+15A. Be4{112.296} 15a. Bb5{116.83} 16A. Bxd5{111.785} 16a. Bxe2+{116.62}
+17A. Kxe2{111.3} 17a. exd5{116.415} 18A. Rhe1{110.799} 18a. O-O-O{116.21}
+19A. c3{110.291} 19a. Bd6{116.011} 20A. Rad1{109.758} 20a. Rhe8+{115.799}
+21A. Kd2{109.21} 21a. Bf4+{115.597} 22A. Kc2{108.714} 22a. Rxe1{115.394}
+23A. Rxe1{108.211} 23a. a6{115.188} 24A. Re7{107.688} 24a. Bxh2{114.994}
+25A. Rxf7{107.178} 25a. Rf8{114.791} 26A. Rxf8+{106.679} 26a. Kd7{114.585}
+27A. Rf7+{106.178} 27a. Kc6{114.366} 28A. Rxg7{105.679} 28a. Be5{114.165}
+29A. Rxh7{105.168} 29a. Kb6{113.962} 30A. Rxc7{104.671} 30a. Kxc7{113.752}
+31A. Kb3{104.16} 31a. d4{113.545} 32A. cxd4{103.648} 32a. Bxd4{113.345}
+33A. Kc2{103.137} 33a. Kb6{113.143} 34A. Kd3{102.634} 34a. Bc5{112.936}
+35A. Ke4{102.121} 35a. Ka7{112.715} 36A. Kf3{101.63} 36a. Kb6{112.505}
+37A. b4{101.128} 37a. Bxb4{112.296} 38A. g4{100.611} 38a. Bc5{112.095}
+39A. g5{100.113} 1B. d4{91.965} 39a. Kb5{111.875} 1b. N@e4{119.486}
+40A. g6{99.588} 40a. Ka4{111.615} 41A. g7{99.058} 41a. b5{111.413}
+42A. g8=Q{98.495} 42a. Ka3{111.209} 43A. Qb3#{98.003} 1-0
+

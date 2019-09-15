@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+CMD=$1
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+EPOCHS=$2
+RESUME=$3
+
+job_id="none"
+for i in `seq 1 $EPOCHS`; do
+    if [ "$job_id" != "none" ]; then
+        arg="-d $job_id"
+    else
+        arg=""
+    fi
+
+    if test -z "$RESUME"
+    then
+        targs="new -r 13 -b 256"
+    else
+        targs="resume --model $RESUME"
+    fi
+    RESUME="latest"
+    echo $DIR/training "$CMD $arg --open-mode=append" "-e 400 -c 50 ${targs}"
+    output=$($DIR/training "$CMD $arg --open-mode=append" "-e 400 -c 50 ${targs}")
+    old_job_id=$job_id
+    job_id=$(echo ${output##*job} | cut -d' ' -f1)
+    echo "Submitted training job $job_id for epoch $i with dependency $old_job_id"
+done

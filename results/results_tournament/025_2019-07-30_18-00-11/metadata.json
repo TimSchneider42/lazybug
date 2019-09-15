@@ -1,0 +1,2129 @@
+{
+ "tournament_no": 25,
+ "participants": [
+  "group1",
+  "group2",
+  "group3",
+  "group4"
+ ],
+ "wins": {
+  "group1": 128,
+  "group2": 54,
+  "group3": 109,
+  "group4": 21
+ },
+ "losses": {
+  "group1": 31,
+  "group2": 107,
+  "group3": 51,
+  "group4": 123
+ },
+ "draws": {
+  "group1": 4,
+  "group2": 4,
+  "group3": 4,
+  "group4": 4
+ },
+ "games": {
+  "1": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TandemTurtle) checkmated"
+  },
+  "2": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (ChuckHouse) checkmated"
+  },
+  "3": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_003_2019-07-30_18-00-11.bpgn'\""
+  },
+  "4": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (TandemTurtle) checkmated"
+  },
+  "5": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_005_2019-07-30_18-00-11.bpgn'\""
+  },
+  "6": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (LazyBug-MCTS) checkmated"
+  },
+  "7": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_007_2019-07-30_18-00-11.bpgn'\""
+  },
+  "8": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_008_2019-07-30_18-00-11.bpgn'\""
+  },
+  "9": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_009_2019-07-30_18-00-11.bpgn'\""
+  },
+  "10": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (TandemTurtle) checkmated"
+  },
+  "11": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_011_2019-07-30_18-00-11.bpgn'\""
+  },
+  "12": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TandemTurtle) checkmated"
+  },
+  "13": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_013_2019-07-30_18-00-11.bpgn'\""
+  },
+  "14": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "15": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_015_2019-07-30_18-00-11.bpgn'\""
+  },
+  "16": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_016_2019-07-30_18-00-11.bpgn'\""
+  },
+  "17": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_017_2019-07-30_18-00-11.bpgn'\""
+  },
+  "18": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_018_2019-07-30_18-00-11.bpgn'\""
+  },
+  "19": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (ChuckHouse) checkmated"
+  },
+  "20": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_020_2019-07-30_18-00-11.bpgn'\""
+  },
+  "21": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (TandemTurtle) checkmated"
+  },
+  "22": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_022_2019-07-30_18-00-11.bpgn'\""
+  },
+  "23": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_023_2019-07-30_18-00-11.bpgn'\""
+  },
+  "24": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_024_2019-07-30_18-00-11.bpgn'\""
+  },
+  "25": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_025_2019-07-30_18-00-11.bpgn'\""
+  },
+  "26": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_026_2019-07-30_18-00-11.bpgn'\""
+  },
+  "27": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_027_2019-07-30_18-00-11.bpgn'\""
+  },
+  "28": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_028_2019-07-30_18-00-11.bpgn'\""
+  },
+  "29": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_029_2019-07-30_18-00-11.bpgn'\""
+  },
+  "30": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_030_2019-07-30_18-00-11.bpgn'\""
+  },
+  "31": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_031_2019-07-30_18-00-11.bpgn'\""
+  },
+  "32": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_032_2019-07-30_18-00-11.bpgn'\""
+  },
+  "33": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_033_2019-07-30_18-00-11.bpgn'\""
+  },
+  "34": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_034_2019-07-30_18-00-11.bpgn'\""
+  },
+  "35": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_035_2019-07-30_18-00-11.bpgn'\""
+  },
+  "36": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_036_2019-07-30_18-00-11.bpgn'\""
+  },
+  "37": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_037_2019-07-30_18-00-11.bpgn'\""
+  },
+  "38": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_038_2019-07-30_18-00-11.bpgn'\""
+  },
+  "39": {
+   "configuration": {
+    "A": "group2",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_039_2019-07-30_18-00-11.bpgn'\""
+  },
+  "40": {
+   "configuration": {
+    "A": "group2",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_040_2019-07-30_18-00-11.bpgn'\""
+  },
+  "41": {
+   "configuration": {
+    "A": "group3",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_041_2019-07-30_18-00-11.bpgn'\""
+  },
+  "42": {
+   "configuration": {
+    "A": "group3",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_042_2019-07-30_18-00-11.bpgn'\""
+  },
+  "43": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TandemTurtle) checkmated"
+  },
+  "44": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (ChuckHouse) checkmated"
+  },
+  "45": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_045_2019-07-30_18-00-11.bpgn'\""
+  },
+  "46": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (LazyBug-MCTS) checkmated"
+  },
+  "47": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_047_2019-07-30_18-00-11.bpgn'\""
+  },
+  "48": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TandemTurtle) checkmated"
+  },
+  "49": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_049_2019-07-30_18-00-11.bpgn'\""
+  },
+  "50": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_050_2019-07-30_18-00-11.bpgn'\""
+  },
+  "51": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_051_2019-07-30_18-00-11.bpgn'\""
+  },
+  "52": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (TandemTurtle) checkmated"
+  },
+  "53": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_053_2019-07-30_18-00-11.bpgn'\""
+  },
+  "54": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "55": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_055_2019-07-30_18-00-11.bpgn'\""
+  },
+  "56": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "57": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_057_2019-07-30_18-00-11.bpgn'\""
+  },
+  "58": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_058_2019-07-30_18-00-11.bpgn'\""
+  },
+  "59": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_059_2019-07-30_18-00-11.bpgn'\""
+  },
+  "60": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_060_2019-07-30_18-00-11.bpgn'\""
+  },
+  "61": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black on board b: disconnected from the server"
+  },
+  "62": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_062_2019-07-30_18-00-11.bpgn'\""
+  },
+  "63": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white on board a: disconnected from the server"
+  },
+  "64": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_064_2019-07-30_18-00-11.bpgn'\""
+  },
+  "65": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_065_2019-07-30_18-00-11.bpgn'\""
+  },
+  "66": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_066_2019-07-30_18-00-11.bpgn'\""
+  },
+  "67": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_067_2019-07-30_18-00-11.bpgn'\""
+  },
+  "68": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/025_2019-07-30_18-00-11/025_068_2019-07-30_18-00-11.bpgn'\""
+  },
+  "69": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "70": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "71": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "72": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "73": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (ChuckHouse) checkmated"
+  },
+  "74": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "75": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "76": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "77": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "78": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "79": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "80": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "81": {
+   "configuration": {
+    "A": "group2",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (ChuckHouse) checkmated"
+  },
+  "82": {
+   "configuration": {
+    "A": "group2",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TandemTurtle) checkmated"
+  },
+  "83": {
+   "configuration": {
+    "A": "group3",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TandemTurtle) checkmated"
+  },
+  "84": {
+   "configuration": {
+    "A": "group3",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "85": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TandemTurtle) checkmated"
+  },
+  "86": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (ChuckHouse) checkmated"
+  },
+  "87": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "88": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (ChuckHouse) checkmated"
+  },
+  "89": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (TandemTurtle) checkmated"
+  },
+  "90": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "1/2-1/2",
+   "result_comment": "Game drawn by threefold repetition"
+  },
+  "91": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "92": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "93": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (ChuckHouse) checkmated"
+  },
+  "94": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (TandemTurtle) checkmated"
+  },
+  "95": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "96": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (TandemTurtle) checkmated"
+  },
+  "97": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "98": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (TandemTurtle) checkmated"
+  },
+  "99": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TandemTurtle) checkmated"
+  },
+  "100": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "101": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "102": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "103": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TandemTurtle) checkmated"
+  },
+  "104": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "105": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "1/2-1/2",
+   "result_comment": "Game drawn by threefold repetition"
+  },
+  "106": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "107": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (LazyBug-MCTS) checkmated"
+  },
+  "108": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "109": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "110": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TJJ-Chess) checkmated"
+  },
+  "111": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TJJ-Chess) checkmated"
+  },
+  "112": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "113": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TJJ-Chess) checkmated"
+  },
+  "114": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TJJ-Chess) checkmated"
+  },
+  "115": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "116": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "117": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "118": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "119": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "120": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (LazyBug-MCTS) checkmated"
+  },
+  "121": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "122": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "123": {
+   "configuration": {
+    "A": "group2",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "124": {
+   "configuration": {
+    "A": "group2",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "1/2-1/2",
+   "result_comment": "Game drawn by threefold repetition"
+  },
+  "125": {
+   "configuration": {
+    "A": "group3",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "126": {
+   "configuration": {
+    "A": "group3",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "127": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (TandemTurtle) checkmated"
+  },
+  "128": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (ChuckHouse) checkmated"
+  },
+  "129": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "130": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (ChuckHouse) checkmated"
+  },
+  "131": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "132": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (LazyBug-MCTS) checkmated"
+  },
+  "133": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "134": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "135": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (ChuckHouse) checkmated"
+  },
+  "136": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TandemTurtle) checkmated"
+  },
+  "137": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "138": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (TandemTurtle) checkmated"
+  },
+  "139": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "140": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TandemTurtle) checkmated"
+  },
+  "141": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TandemTurtle) checkmated"
+  },
+  "142": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "143": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (TandemTurtle) checkmated"
+  },
+  "144": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "145": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (ChuckHouse) checkmated"
+  },
+  "146": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "147": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (ChuckHouse) checkmated"
+  },
+  "148": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "149": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "150": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "151": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "152": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "153": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "154": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "155": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TJJ-Chess) checkmated"
+  },
+  "156": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "157": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "158": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (TandemTurtle) checkmated"
+  },
+  "159": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "160": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "161": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "162": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (ChuckHouse) checkmated"
+  },
+  "163": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "164": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "165": {
+   "configuration": {
+    "A": "group2",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "166": {
+   "configuration": {
+    "A": "group2",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "167": {
+   "configuration": {
+    "A": "group3",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "168": {
+   "configuration": {
+    "A": "group3",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "169": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TandemTurtle) checkmated"
+  },
+  "170": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (ChuckHouse) checkmated"
+  },
+  "171": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "172": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (TandemTurtle) checkmated"
+  },
+  "173": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "174": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (ChuckHouse) checkmated"
+  },
+  "175": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "176": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "177": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (TJJ-Chess) checkmated"
+  },
+  "178": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (TandemTurtle) checkmated"
+  },
+  "179": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "180": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (TandemTurtle) checkmated"
+  },
+  "181": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "182": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TandemTurtle) checkmated"
+  },
+  "183": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TandemTurtle) checkmated"
+  },
+  "184": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "185": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (TandemTurtle) checkmated"
+  },
+  "186": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (TJJ-Chess) checkmated"
+  },
+  "187": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (LazyBug-MCTS) checkmated"
+  },
+  "188": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (ChuckHouse) checkmated"
+  },
+  "189": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (ChuckHouse) checkmated"
+  },
+  "190": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (TandemTurtle) checkmated"
+  },
+  "191": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "192": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "193": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "194": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TJJ-Chess) checkmated"
+  },
+  "195": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TJJ-Chess) checkmated"
+  },
+  "196": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "197": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TJJ-Chess) checkmated"
+  },
+  "198": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "199": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "200": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (TandemTurtle) checkmated"
+  },
+  "201": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (TandemTurtle) checkmated"
+  },
+  "202": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "203": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "204": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "1/2-1/2",
+   "result_comment": "Game drawn by threefold repetition"
+  },
+  "205": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "206": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "207": {
+   "configuration": {
+    "A": "group2",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "208": {
+   "configuration": {
+    "A": "group2",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (TandemTurtle) checkmated"
+  },
+  "209": {
+   "configuration": {
+    "A": "group3",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "210": {
+   "configuration": {
+    "A": "group3",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  }
+ }
+}

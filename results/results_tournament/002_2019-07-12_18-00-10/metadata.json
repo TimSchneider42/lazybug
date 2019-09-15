@@ -1,0 +1,31 @@
+{
+ "tournament_no": 2,
+ "participants": [
+  "group1",
+  "group2"
+ ],
+ "wins": {
+  "group1": 0,
+  "group2": 0
+ },
+ "losses": {
+  "group1": 0,
+  "group2": 0
+ },
+ "draws": {
+  "group1": 0,
+  "group2": 0
+ },
+ "games": {
+  "1": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/002_2019-07-12_18-00-10/002_001_2019-07-12_18-00-10.bpgn'\""
+  }
+ }
+}

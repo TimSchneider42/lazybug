@@ -1,0 +1,39 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-07-29T18:08:38.641919"]
+[Round "24"]
+[Result "0-1"]
+[BlackA "debug_engine"]
+[BlackB "LazyBug-MCTS"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1"]
+[ResultComment "Player b (LazyBug-MCTS) checkmated"]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "LazyBug-MCTS"]
+[WhiteB "debug_engine"]
+
+1A. Nf3{119.502} 1B. e4{118.175} 1a. e6{118.589} 1b. Nf6{119.319}
+2A. e4{118.864} 2B. Nc3{117.039} 2a. Nc6{117.401} 2b. Nc6{118.646}
+3B. Nf3{115.877} 3A. Nc3{106.931} 3a. Nf6{116.256} 3b. d5{106.68}
+4B. exd5{114.696} 4A. d4{95.111} 4a. Bb4{115.116} 4b. Nxd5{94.833}
+5B. d4{111.707} 5A. Bd3{83.247} 5a. d5{112.066} 5b. e5{82.97} 6B. Bb5{108.521}
+6A. e5{71.508} 6a. Ne4{108.821} 6b. Bb4{71.203} 7B. O-O{105.437} 7A. O-O{59.75}
+7a. Bxc3{105.708} 7b. Bxc3{59.355} 8B. Nxe5{102.232} 8A. bxc3{48.054}
+8a. @g4{102.54} 8b. O-O{47.533} 9B. Bxc6{99.054} 9A. Bxe4{36.414}
+9a. dxe4{99.34} 9b. bxc6{35.739} 10B. bxc3{95.874} 10A. Ng5{24.78}
+10a. @f3{96.182} 10b. Nxc3{23.971} 11B. Qf3{92.625} 11A. gxf3{13.139}
+11a. exf3{93.126} 12A. Nxf3{12.491} 11b. N@e2+{12.117} 12a. gxf3{90.055}
+13A. Qxf3{11.816} 12B. Kh1{89.558} 12b. Nxd4{11.382} 13a. N@h4{86.997}
+14A. Qg4{11.149} 13B. N@h6+{86.511} 13b. gxh6{10.693} 14a. B@f3{83.776}
+15A. Qxg7{10.473} 14B. N@f6+{83.325} 14b. Qxf6{10.01} 15a. Ng6{80.558}
+16A. N@f6+{9.796} 15B. Qxf6{80.15} 15b. B@g7{9.338} 16a. Qxf6{77.504}
+17A. Qxf6{9.127} 16B. Qxg7+{77.103} 16b. Kxg7{8.67} 17a. Rg8{74.187}
+18A. N@g7+{8.505} 17B. Bxh6+{73.871} 17b. Kxh6{7.991} 18a. Rxg7{70.968}
+19A. N@d6+{7.86} 18B. @g5+{70.662} 18b. Kxg5{7.31} 19a. cxd6{67.899}
+20A. Q@d8+{7.182} 19B. f4+{67.589} 19b. Kf6{6.637} 20a. Nxd8{64.677}
+21A. B@b5+{6.517} 20B. B@g5+{64.395} 20b. Ke6{5.963} 21a. B@c6{61.468}
+22A. Bxc6+{5.866} 21B. Q@e7+{61.193} 21b. Kd5{5.282} 22a. bxc6{58.226}
+23A. Qxf3{5.202} 22B. N@e3+{57.973} 22b. Ke4{4.599} 23a. Nh4+{54.995}
+24A. B@g2{4.562} 23B. B@d3+{54.8} 23b. Kxe3{3.916} 24a. Nxf3+{51.792}
+25A. Kh1{3.921} 24B. Nc4#{51.78} 0-1
+

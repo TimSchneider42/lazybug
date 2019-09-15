@@ -1,0 +1,38 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-08-23T16:53:30.570946"]
+[Round "42"]
+[Result "0-1"]
+[BlackA "ChuckHouse"]
+[BlackB "TandemTurtle"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1"]
+[ResultComment "Player b (TandemTurtle) checkmated"]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "TandemTurtle"]
+[WhiteB "LazyBug-MCTS"]
+
+1B. e4{119.478} 1A. e4{106.655} 1a. e6{119.732} 1b. e6{106.361}
+2B. Nc3{118.814} 2A. Nf3{96.773} 2a. Nc6{119.453} 2b. Nc6{96.371}
+3B. d4{118.149} 3A. Nc3{85.304} 3b. Nge7{86.431} 3a. Nf6{119.192}
+4B. Nf3{117.465} 4b. d5{76.392} 4A. Bc4{74.034} 5B. Bd3{116.815}
+4a. d5{118.904} 5A. exd5{64.101} 5a. exd5{118.635} 5b. dxe4{64.933}
+6B. Nxe4{116.13} 6A. Bxd5{56.031} 6a. Nxd5{118.331} 6b. Nf5{55.063}
+7B. c3{115.448} 7A. Nxd5{46.29} 7a. Qxd5{118.075} 7b. @d5{45.127}
+8B. Neg5{114.728} 8A. d3{36.452} 8a. Bg4{117.782} 8b. @f6{35.197}
+9B. Nxf7{114.018} 9A. Qe2+{26.662} 9a. @e6{117.516} 9b. Kxf7{23.697}
+10B. Bxf5{113.339} 10b. exf5{23.467} 11B. @b5{112.681} 11b. N@c2+{23.209}
+12B. Qxc2{112.03} 12b. Qe7+{22.99} 10A. @e4{17.111} 13B. B@e2{111.488}
+10a. Bxf3{117.243} 13b. Nd8{22.784} 11A. N@d1{16.814} 11a. Bxe2{117.029}
+14B. N@e5+{110.923} 12A. exd5{16.564} 14b. fxe5{22.583} 12a. Bxd1{116.779}
+13A. B@h4{16.347} 15B. Nxe5+{110.411} 13a. Bg4{116.516} 15b. Kg8{22.319}
+14A. N@f3{16.103} 14a. Bxf3{116.303} 15A. dxc6{15.905} 16B. N@g6{109.875}
+16b. hxg6{22.13} 15a. Bxc6{116.02} 16A. N@e5{15.695} 17B. Nxg6{109.382}
+16a. @f6{115.796} 17b. Qg5{21.836} 17A. Nxc6{15.4} 17a. bxc6{115.542}
+18A. Bxf6{15.195} 18B. Bxg5{108.881} 18b. N@c5{21.641} 18a. gxf6{115.265}
+19A. Rf1{14.981} 19a. Q@a5+{115.056} 19B. N@e7+{108.32} 20A. Bd2{14.686}
+19b. Bxe7{21.399} 20a. @b4{114.812} 21A. N@c4{14.475} 20B. Nxe7+{107.813}
+20b. Kf7{21.217} 21a. @c3{114.505} 22A. Nxa5{14.25} 22a. cxd2+{114.259}
+21B. B@g6+{107.207} 23A. Kxd2{13.979} 21b. Kf8{20.981} 23a. Rd8{114.049}
+24A. Nxc6{13.767} 22B. Q@e8#{106.702} 0-1
+

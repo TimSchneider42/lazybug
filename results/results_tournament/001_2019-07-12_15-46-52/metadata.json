@@ -1,0 +1,31 @@
+{
+ "tournament_no": 1,
+ "participants": [
+  "group1",
+  "group2"
+ ],
+ "wins": {
+  "group1": 1,
+  "group2": 0
+ },
+ "losses": {
+  "group1": 0,
+  "group2": 1
+ },
+ "draws": {
+  "group1": 0,
+  "group2": 0
+ },
+ "games": {
+  "1": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  }
+ }
+}

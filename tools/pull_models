@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+rsync -avz hrz7:/work/scratch/kurse/kurs00028/rv09ivin/models/ /run/media/so81egih/Linux/models_by_user/

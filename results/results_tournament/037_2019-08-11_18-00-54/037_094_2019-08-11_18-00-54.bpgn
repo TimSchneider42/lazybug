@@ -1,0 +1,38 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-08-11T23:09:01.315580"]
+[Round "37"]
+[Result "0-1"]
+[BlackA "ChuckHouse"]
+[BlackB "TandemTurtle"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1"]
+[ResultComment "Player b (TandemTurtle) checkmated"]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "TandemTurtle"]
+[WhiteB "ChuckHouse"]
+
+1B. e4{119.138} 1A. e4{103.834} 1a. e6{119.682} 1b. e6{103.205}
+2B. Nc3{118.816} 2A. Bc4{91.985} 2a. Nc6{119.347} 2b. Nc6{91.327}
+3B. Nf3{118.483} 3A. Nc3{80.121} 3a. Nf6{119.013} 3b. Bb4{79.526}
+4B. d4{118.148} 4b. Bxc3+{67.617} 4A. d3{66.493} 5B. bxc3{117.835}
+4a. d5{118.59} 5A. exd5{54.602} 5a. exd5{118.252} 5b. d5{54.05}
+6B. Bd3{117.494} 6A. Bb5{44.873} 6a. Bb4{117.922} 6b. @c4{40.328}
+7B. e5{117.09} 7A. N@e5{33.088} 7a. Qe7{117.519} 7b. cxd3{26.639}
+8B. cxd3{116.766} 8A. Bxc6+{21.193} 8a. bxc6{117.186} 9A. h4{20.908}
+9a. Qxe5+{116.839} 10A. B@e4{20.627} 10a. dxe4{116.48} 11A. Nh3{20.349}
+11a. exd3+{116.15} 12A. Be3{20.067} 12a. Bxh3{115.809} 13A. Qf3{19.764}
+13a. Qxc3+{115.47} 14A. bxc3{19.48} 14a. Bxc3+{115.131} 15A. Kf1{19.203}
+15a. Bxa1{114.753} 16A. Rxh3{18.926} 16a. B@e2+{114.411} 17A. Kg1{18.652}
+17a. Bxf3{114.073} 8b. Qe7{15.696} 18A. gxf3{18.384} 9B. @d6{116.527}
+18a. dxc2{113.789} 19A. Kh2{18.134} 9b. N@f1{15.144} 19a. O-O{113.504}
+20A. Kh1{17.914} 10B. Rxf1{116.209} 10b. B@f8{14.918} 20a. Rfd8{113.177}
+11B. dxe7{116.002} 11b. Ngxe7{14.708} 12B. @d6{115.798} 12b. Q@f4{14.516}
+13B. Bxf4{115.575} 13b. Bd7{14.312} 14B. dxe7{115.369} 14b. Bxe7{14.114}
+15B. @d6{115.17} 15b. b6{13.918} 16B. dxe7{114.957} 16b. Nxe7{13.717}
+17B. @d6{114.748} 17b. B@g1{13.517} 18B. dxc7{114.54} 18b. a6{13.322}
+19B. N@d6+{114.333} 19b. Kf8{13.127} 20B. B@g5{114.13} 20b. Bxf2+{12.93}
+21B. Rxf2{113.928} 21b. Rc8{12.725} 22B. Bxe7+{113.718} 22b. Kg8{12.534}
+23B. N@f6+{113.506} 23b. gxf6{12.338} 24B. B@h6{113.302} 24b. Re8{12.137}
+25B. Q@g7#{113.095} 0-1
+

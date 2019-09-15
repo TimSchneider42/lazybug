@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+CMD=$1
+FILES="${@:2}"
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+$CMD -J lb_import --ntasks=1 --mem-per-cpu=16000 --time=24:00:00 -C nvd $DIR/../on_node/import_bpgn ${FILES}

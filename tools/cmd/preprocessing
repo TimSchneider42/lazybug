@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+CMD=$1
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+BPGN_FILES=/work/scratch/kurse/kurs00028/rv09ivin/data_bpgn/*
+
+job_id="none"
+for f in $BPGN_FILES; do
+    if [ "$job_id" != "none" ]; then
+        arg="-d $job_id"
+    else
+        arg=""
+    fi
+
+    output=$($DIR/import_bpgn "$CMD $arg --open-mode=append" ${f})
+    old_job_id=$job_id
+    job_id=$(echo ${output##*job} | cut -d' ' -f1)
+    echo "Submitted job $job_id for file \"${f}\" with dependency $old_job_id"
+done
+
+output=$($DIR/shuffle_db "$CMD -d $job_id --open-mode=append")
+old_job_id=$job_id
+job_id=$(echo ${output##*job} | cut -d' ' -f1)
+echo "Submitted job $job_id for shuffling the database with dependency $old_job_id"

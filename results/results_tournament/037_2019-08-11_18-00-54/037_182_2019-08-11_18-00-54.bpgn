@@ -1,0 +1,38 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-08-12T04:03:35.581888"]
+[Round "37"]
+[Result "0-1"]
+[BlackA "ChuckHouse"]
+[BlackB "TandemTurtle"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1"]
+[ResultComment "Player b (TandemTurtle) checkmated"]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "TandemTurtle"]
+[WhiteB "LazyBug-MCTS"]
+
+1B. d4{119.495} 1A. e4{106.568} 1a. e6{119.727} 1b. d5{104.741}
+2B. Nc3{118.842} 2A. d4{96.645} 2a. Nc6{119.457} 2b. e6{94.891}
+3B. Nf3{118.178} 3A. Nc3{86.703} 3a. Nf6{119.174} 3b. Nf6{85.01}
+4B. Bg5{117.511} 4A. Nf3{73.568} 4a. Bb4{118.861} 4b. Be7{73.538}
+5B. e3{116.832} 5A. e5{62.087} 5a. Nd5{118.595} 5b. Ne4{62.131}
+6B. Bxe7{116.159} 6A. Bd2{50.516} 6a. Bxc3{118.335} 6b. Qxe7{50.712}
+7B. Bd3{115.511} 7A. Bb5{40.627} 7a. Bxd2+{118.072} 7b. Nxc3{40.938}
+8B. bxc3{114.826} 8A. Qxd2{31.121} 8a. B@h5{117.776} 8b. Nc6{31.02}
+9B. N@h5{114.142} 9A. Be2{21.244} 9a. N@e4{117.519} 10A. O-O{20.99}
+10a. Nxd2{117.231} 11A. Nxd2{20.741} 11a. Bxe2{116.966} 12A. N@e3{20.497}
+12a. Nxd4{116.665} 13A. Nxd5{20.263} 13a. exd5{116.389} 14A. Rfd1{20.02}
+14a. Bxd1{116.123} 15A. B@h6{19.763} 9b. B@h6{21.702} 15a. gxh6{115.92}
+16A. Rxd1{19.526} 10B. N@g4{113.622} 16a. Rg8{115.669} 10b. f6{21.327}
+17A. b4{19.262} 17a. d6{115.417} 18A. Re1{19.057} 11B. Nxh6{113.126}
+11b. B@f1{21.12} 18a. Bh3{115.137} 19A. Re2{18.849} 19a. Nxe2+{114.927}
+12B. @f7+{112.588} 20A. Kf1{18.57} 12b. Kd8{20.876} 20a. Rxg2{114.694}
+21A. Kxe2{18.357} 13B. R@g8+{112.105} 13b. N@f8{20.683} 21a. B@d1+{114.402}
+22A. Kxd1{18.141} 14B. R@e8+{111.624} 22a. Rxf2{114.109} 14b. Qxe8{20.404}
+23A. Nb1{17.878} 23a. Bg4+{113.824} 15B. fxe8=Q+{111.16} 24A. Kc1{17.614}
+15b. Kxe8{20.187} 24a. Q@d1+{113.589} 25A. Kb2{17.409} 16B. Nxg7+{110.658}
+25a. Rxc2+{113.31} 16b. Ke7{19.951} 26A. Ka3{17.174} 26a. Qc1+{113.1}
+17B. Q@e8+{110.111} 27A. Ka4{16.972} 17b. Kd6{19.771} 27a. b5+{112.714}
+28A. Kxb5{16.753} 18B. B@c5#{109.62} 0-1
+

@@ -1,0 +1,2129 @@
+{
+ "tournament_no": 19,
+ "participants": [
+  "group1",
+  "group2",
+  "group3",
+  "group4"
+ ],
+ "wins": {
+  "group1": 42,
+  "group2": 3,
+  "group3": 45,
+  "group4": 0
+ },
+ "losses": {
+  "group1": 18,
+  "group2": 57,
+  "group3": 15,
+  "group4": 0
+ },
+ "draws": {
+  "group1": 0,
+  "group2": 0,
+  "group3": 0,
+  "group4": 0
+ },
+ "games": {
+  "1": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "2": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (debug_engine) checkmated"
+  },
+  "3": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_003_2019-07-26_03-56-52.bpgn'\""
+  },
+  "4": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "5": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_005_2019-07-26_03-56-52.bpgn'\""
+  },
+  "6": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "7": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_007_2019-07-26_03-56-52.bpgn'\""
+  },
+  "8": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_008_2019-07-26_03-56-52.bpgn'\""
+  },
+  "9": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_009_2019-07-26_03-56-52.bpgn'\""
+  },
+  "10": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "11": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_011_2019-07-26_03-56-52.bpgn'\""
+  },
+  "12": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "13": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_013_2019-07-26_03-56-52.bpgn'\""
+  },
+  "14": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "15": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_015_2019-07-26_03-56-52.bpgn'\""
+  },
+  "16": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_016_2019-07-26_03-56-52.bpgn'\""
+  },
+  "17": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_017_2019-07-26_03-56-52.bpgn'\""
+  },
+  "18": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_018_2019-07-26_03-56-52.bpgn'\""
+  },
+  "19": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (LazyBug-Policy) checkmated"
+  },
+  "20": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_020_2019-07-26_03-56-52.bpgn'\""
+  },
+  "21": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "22": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_022_2019-07-26_03-56-52.bpgn'\""
+  },
+  "23": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_023_2019-07-26_03-56-52.bpgn'\""
+  },
+  "24": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_024_2019-07-26_03-56-52.bpgn'\""
+  },
+  "25": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_025_2019-07-26_03-56-52.bpgn'\""
+  },
+  "26": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_026_2019-07-26_03-56-52.bpgn'\""
+  },
+  "27": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_027_2019-07-26_03-56-52.bpgn'\""
+  },
+  "28": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_028_2019-07-26_03-56-52.bpgn'\""
+  },
+  "29": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_029_2019-07-26_03-56-52.bpgn'\""
+  },
+  "30": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_030_2019-07-26_03-56-52.bpgn'\""
+  },
+  "31": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_031_2019-07-26_03-56-52.bpgn'\""
+  },
+  "32": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_032_2019-07-26_03-56-52.bpgn'\""
+  },
+  "33": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_033_2019-07-26_03-56-52.bpgn'\""
+  },
+  "34": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_034_2019-07-26_03-56-52.bpgn'\""
+  },
+  "35": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_035_2019-07-26_03-56-52.bpgn'\""
+  },
+  "36": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_036_2019-07-26_03-56-52.bpgn'\""
+  },
+  "37": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_037_2019-07-26_03-56-52.bpgn'\""
+  },
+  "38": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_038_2019-07-26_03-56-52.bpgn'\""
+  },
+  "39": {
+   "configuration": {
+    "A": "group2",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_039_2019-07-26_03-56-52.bpgn'\""
+  },
+  "40": {
+   "configuration": {
+    "A": "group2",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_040_2019-07-26_03-56-52.bpgn'\""
+  },
+  "41": {
+   "configuration": {
+    "A": "group3",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_041_2019-07-26_03-56-52.bpgn'\""
+  },
+  "42": {
+   "configuration": {
+    "A": "group3",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_042_2019-07-26_03-56-52.bpgn'\""
+  },
+  "43": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (BlackA) checkmated"
+  },
+  "44": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (debug_engine) checkmated"
+  },
+  "45": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_045_2019-07-26_03-56-52.bpgn'\""
+  },
+  "46": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (LazyBug-Policy) checkmated"
+  },
+  "47": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_047_2019-07-26_03-56-52.bpgn'\""
+  },
+  "48": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "49": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_049_2019-07-26_03-56-52.bpgn'\""
+  },
+  "50": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_050_2019-07-26_03-56-52.bpgn'\""
+  },
+  "51": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_051_2019-07-26_03-56-52.bpgn'\""
+  },
+  "52": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "53": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_053_2019-07-26_03-56-52.bpgn'\""
+  },
+  "54": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "55": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_055_2019-07-26_03-56-52.bpgn'\""
+  },
+  "56": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "57": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_057_2019-07-26_03-56-52.bpgn'\""
+  },
+  "58": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_058_2019-07-26_03-56-52.bpgn'\""
+  },
+  "59": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_059_2019-07-26_03-56-52.bpgn'\""
+  },
+  "60": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_060_2019-07-26_03-56-52.bpgn'\""
+  },
+  "61": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "62": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_062_2019-07-26_03-56-52.bpgn'\""
+  },
+  "63": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "64": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_064_2019-07-26_03-56-52.bpgn'\""
+  },
+  "65": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_065_2019-07-26_03-56-52.bpgn'\""
+  },
+  "66": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_066_2019-07-26_03-56-52.bpgn'\""
+  },
+  "67": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_067_2019-07-26_03-56-52.bpgn'\""
+  },
+  "68": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_068_2019-07-26_03-56-52.bpgn'\""
+  },
+  "69": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_069_2019-07-26_03-56-52.bpgn'\""
+  },
+  "70": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_070_2019-07-26_03-56-52.bpgn'\""
+  },
+  "71": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_071_2019-07-26_03-56-52.bpgn'\""
+  },
+  "72": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_072_2019-07-26_03-56-52.bpgn'\""
+  },
+  "73": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_073_2019-07-26_03-56-52.bpgn'\""
+  },
+  "74": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_074_2019-07-26_03-56-52.bpgn'\""
+  },
+  "75": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_075_2019-07-26_03-56-52.bpgn'\""
+  },
+  "76": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_076_2019-07-26_03-56-52.bpgn'\""
+  },
+  "77": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_077_2019-07-26_03-56-52.bpgn'\""
+  },
+  "78": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_078_2019-07-26_03-56-52.bpgn'\""
+  },
+  "79": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_079_2019-07-26_03-56-52.bpgn'\""
+  },
+  "80": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_080_2019-07-26_03-56-52.bpgn'\""
+  },
+  "81": {
+   "configuration": {
+    "A": "group2",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_081_2019-07-26_03-56-52.bpgn'\""
+  },
+  "82": {
+   "configuration": {
+    "A": "group2",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_082_2019-07-26_03-56-52.bpgn'\""
+  },
+  "83": {
+   "configuration": {
+    "A": "group3",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_083_2019-07-26_03-56-52.bpgn'\""
+  },
+  "84": {
+   "configuration": {
+    "A": "group3",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_084_2019-07-26_03-56-52.bpgn'\""
+  },
+  "85": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "86": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player A (LazyBug-Policy) checkmated"
+  },
+  "87": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_087_2019-07-26_03-56-52.bpgn'\""
+  },
+  "88": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "89": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_089_2019-07-26_03-56-52.bpgn'\""
+  },
+  "90": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "91": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_091_2019-07-26_03-56-52.bpgn'\""
+  },
+  "92": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_092_2019-07-26_03-56-52.bpgn'\""
+  },
+  "93": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_093_2019-07-26_03-56-52.bpgn'\""
+  },
+  "94": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "95": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_095_2019-07-26_03-56-52.bpgn'\""
+  },
+  "96": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "97": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_097_2019-07-26_03-56-52.bpgn'\""
+  },
+  "98": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "99": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_099_2019-07-26_03-56-52.bpgn'\""
+  },
+  "100": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_100_2019-07-26_03-56-52.bpgn'\""
+  },
+  "101": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_101_2019-07-26_03-56-52.bpgn'\""
+  },
+  "102": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_102_2019-07-26_03-56-52.bpgn'\""
+  },
+  "103": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "104": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_104_2019-07-26_03-56-52.bpgn'\""
+  },
+  "105": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "106": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_106_2019-07-26_03-56-52.bpgn'\""
+  },
+  "107": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_107_2019-07-26_03-56-52.bpgn'\""
+  },
+  "108": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_108_2019-07-26_03-56-52.bpgn'\""
+  },
+  "109": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_109_2019-07-26_03-56-52.bpgn'\""
+  },
+  "110": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_110_2019-07-26_03-56-52.bpgn'\""
+  },
+  "111": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_111_2019-07-26_03-56-52.bpgn'\""
+  },
+  "112": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_112_2019-07-26_03-56-52.bpgn'\""
+  },
+  "113": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_113_2019-07-26_03-56-52.bpgn'\""
+  },
+  "114": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_114_2019-07-26_03-56-52.bpgn'\""
+  },
+  "115": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_115_2019-07-26_03-56-52.bpgn'\""
+  },
+  "116": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_116_2019-07-26_03-56-52.bpgn'\""
+  },
+  "117": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_117_2019-07-26_03-56-52.bpgn'\""
+  },
+  "118": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_118_2019-07-26_03-56-52.bpgn'\""
+  },
+  "119": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_119_2019-07-26_03-56-52.bpgn'\""
+  },
+  "120": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_120_2019-07-26_03-56-52.bpgn'\""
+  },
+  "121": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_121_2019-07-26_03-56-52.bpgn'\""
+  },
+  "122": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_122_2019-07-26_03-56-52.bpgn'\""
+  },
+  "123": {
+   "configuration": {
+    "A": "group2",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_123_2019-07-26_03-56-52.bpgn'\""
+  },
+  "124": {
+   "configuration": {
+    "A": "group2",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_124_2019-07-26_03-56-52.bpgn'\""
+  },
+  "125": {
+   "configuration": {
+    "A": "group3",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_125_2019-07-26_03-56-52.bpgn'\""
+  },
+  "126": {
+   "configuration": {
+    "A": "group3",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_126_2019-07-26_03-56-52.bpgn'\""
+  },
+  "127": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "128": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (debug_engine) checkmated"
+  },
+  "129": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_129_2019-07-26_03-56-52.bpgn'\""
+  },
+  "130": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (LazyBug-Policy) checkmated"
+  },
+  "131": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_131_2019-07-26_03-56-52.bpgn'\""
+  },
+  "132": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player B (WhiteB) checkmated"
+  },
+  "133": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_133_2019-07-26_03-56-52.bpgn'\""
+  },
+  "134": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_134_2019-07-26_03-56-52.bpgn'\""
+  },
+  "135": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_135_2019-07-26_03-56-52.bpgn'\""
+  },
+  "136": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "137": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_137_2019-07-26_03-56-52.bpgn'\""
+  },
+  "138": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "139": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_139_2019-07-26_03-56-52.bpgn'\""
+  },
+  "140": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "141": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_141_2019-07-26_03-56-52.bpgn'\""
+  },
+  "142": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_142_2019-07-26_03-56-52.bpgn'\""
+  },
+  "143": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_143_2019-07-26_03-56-52.bpgn'\""
+  },
+  "144": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_144_2019-07-26_03-56-52.bpgn'\""
+  },
+  "145": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (LazyBug-Policy) checkmated"
+  },
+  "146": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_146_2019-07-26_03-56-52.bpgn'\""
+  },
+  "147": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (BlackA) checkmated"
+  },
+  "148": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_148_2019-07-26_03-56-52.bpgn'\""
+  },
+  "149": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_149_2019-07-26_03-56-52.bpgn'\""
+  },
+  "150": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_150_2019-07-26_03-56-52.bpgn'\""
+  },
+  "151": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_151_2019-07-26_03-56-52.bpgn'\""
+  },
+  "152": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_152_2019-07-26_03-56-52.bpgn'\""
+  },
+  "153": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_153_2019-07-26_03-56-52.bpgn'\""
+  },
+  "154": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_154_2019-07-26_03-56-52.bpgn'\""
+  },
+  "155": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_155_2019-07-26_03-56-52.bpgn'\""
+  },
+  "156": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_156_2019-07-26_03-56-52.bpgn'\""
+  },
+  "157": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_157_2019-07-26_03-56-52.bpgn'\""
+  },
+  "158": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_158_2019-07-26_03-56-52.bpgn'\""
+  },
+  "159": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_159_2019-07-26_03-56-52.bpgn'\""
+  },
+  "160": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_160_2019-07-26_03-56-52.bpgn'\""
+  },
+  "161": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_161_2019-07-26_03-56-52.bpgn'\""
+  },
+  "162": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_162_2019-07-26_03-56-52.bpgn'\""
+  },
+  "163": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_163_2019-07-26_03-56-52.bpgn'\""
+  },
+  "164": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_164_2019-07-26_03-56-52.bpgn'\""
+  },
+  "165": {
+   "configuration": {
+    "A": "group2",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_165_2019-07-26_03-56-52.bpgn'\""
+  },
+  "166": {
+   "configuration": {
+    "A": "group2",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_166_2019-07-26_03-56-52.bpgn'\""
+  },
+  "167": {
+   "configuration": {
+    "A": "group3",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_167_2019-07-26_03-56-52.bpgn'\""
+  },
+  "168": {
+   "configuration": {
+    "A": "group3",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_168_2019-07-26_03-56-52.bpgn'\""
+  },
+  "169": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "170": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (debug_engine) checkmated"
+  },
+  "171": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_171_2019-07-26_03-56-52.bpgn'\""
+  },
+  "172": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "Player b (LazyBug-Policy) checkmated"
+  },
+  "173": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_173_2019-07-26_03-56-52.bpgn'\""
+  },
+  "174": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "Player a (debug_engine) checkmated"
+  },
+  "175": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_175_2019-07-26_03-56-52.bpgn'\""
+  },
+  "176": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_176_2019-07-26_03-56-52.bpgn'\""
+  },
+  "177": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_177_2019-07-26_03-56-52.bpgn'\""
+  },
+  "178": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "179": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_179_2019-07-26_03-56-52.bpgn'\""
+  },
+  "180": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "0-1",
+   "result_comment": "on board b [1-0]: black ran out of time."
+  },
+  "181": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_181_2019-07-26_03-56-52.bpgn'\""
+  },
+  "182": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "0-1",
+   "result_comment": "on board a [0-1]: white ran out of time."
+  },
+  "183": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_183_2019-07-26_03-56-52.bpgn'\""
+  },
+  "184": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_184_2019-07-26_03-56-52.bpgn'\""
+  },
+  "185": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_185_2019-07-26_03-56-52.bpgn'\""
+  },
+  "186": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_186_2019-07-26_03-56-52.bpgn'\""
+  },
+  "187": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "188": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group1",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_188_2019-07-26_03-56-52.bpgn'\""
+  },
+  "189": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "1-0",
+   "result_comment": "on board a [1-0]: black ran out of time."
+  },
+  "190": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_190_2019-07-26_03-56-52.bpgn'\""
+  },
+  "191": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_191_2019-07-26_03-56-52.bpgn'\""
+  },
+  "192": {
+   "configuration": {
+    "A": "group3",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_192_2019-07-26_03-56-52.bpgn'\""
+  },
+  "193": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_193_2019-07-26_03-56-52.bpgn'\""
+  },
+  "194": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group1",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_194_2019-07-26_03-56-52.bpgn'\""
+  },
+  "195": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_195_2019-07-26_03-56-52.bpgn'\""
+  },
+  "196": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_196_2019-07-26_03-56-52.bpgn'\""
+  },
+  "197": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_197_2019-07-26_03-56-52.bpgn'\""
+  },
+  "198": {
+   "configuration": {
+    "A": "group4",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_198_2019-07-26_03-56-52.bpgn'\""
+  },
+  "199": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_199_2019-07-26_03-56-52.bpgn'\""
+  },
+  "200": {
+   "configuration": {
+    "A": "group1",
+    "b": "group2",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_200_2019-07-26_03-56-52.bpgn'\""
+  },
+  "201": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group2",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_201_2019-07-26_03-56-52.bpgn'\""
+  },
+  "202": {
+   "configuration": {
+    "A": "group1",
+    "b": "group3",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_202_2019-07-26_03-56-52.bpgn'\""
+  },
+  "203": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group2",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_203_2019-07-26_03-56-52.bpgn'\""
+  },
+  "204": {
+   "configuration": {
+    "A": "group1",
+    "b": "group4",
+    "a": "group3",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_204_2019-07-26_03-56-52.bpgn'\""
+  },
+  "205": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group3",
+    "B": "group4"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_205_2019-07-26_03-56-52.bpgn'\""
+  },
+  "206": {
+   "configuration": {
+    "A": "group2",
+    "b": "group1",
+    "a": "group4",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_206_2019-07-26_03-56-52.bpgn'\""
+  },
+  "207": {
+   "configuration": {
+    "A": "group2",
+    "b": "group3",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_207_2019-07-26_03-56-52.bpgn'\""
+  },
+  "208": {
+   "configuration": {
+    "A": "group2",
+    "b": "group4",
+    "a": "group3",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_208_2019-07-26_03-56-52.bpgn'\""
+  },
+  "209": {
+   "configuration": {
+    "A": "group3",
+    "b": "group1",
+    "a": "group4",
+    "B": "group2"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_209_2019-07-26_03-56-52.bpgn'\""
+  },
+  "210": {
+   "configuration": {
+    "A": "group3",
+    "b": "group2",
+    "a": "group4",
+    "B": "group1"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/019_2019-07-26_03-56-52/019_210_2019-07-26_03-56-52.bpgn'\""
+  }
+ }
+}

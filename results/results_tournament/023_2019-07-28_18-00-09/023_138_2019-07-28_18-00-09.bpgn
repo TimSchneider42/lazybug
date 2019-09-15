@@ -1,0 +1,33 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-07-29T07:38:27.170898"]
+[Round "23"]
+[Result "1-0"]
+[BlackA "LazyBug-MCTS"]
+[BlackB "BlackB"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1"]
+[ResultComment "on board a [1-0]: black ran out of time."]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "WhiteA"]
+[WhiteB "debug_engine"]
+
+1B. e4{118.364} 1A. Nc3{112.189} 1a. Nc6{119.341} 1b. e6{109.25}
+2A. e4{107.352} 2B. Nc3{117.257} 2a. e5{118.733} 2b. Nc6{104.231}
+3B. d4{116.103} 3A. Bc4{100.932} 3b. Bb4{100.03} 4B. Nf3{115.02} 4b. d6{96.036}
+3a. Nf6{107.619} 5B. Bd3{111.831} 5b. Bd7{90.978} 4A. Bxf7+{94.51}
+6B. O-O{108.765} 6b. Nge7{86.994} 7B. Re1{105.729} 4a. Kxf7{95.78}
+7b. e5{80.901} 5A. Nf3{89.672} 8B. d5{102.591} 8b. Nd4{75.659} 9B. Nxd4{99.561}
+9b. @h3{71.863} 5a. Be7{80.611} 10B. Nf5{96.505} 6A. d4{83.354}
+10b. Nxf5{65.634} 11B. exf5{93.392} 11b. hxg2{61.656} 12B. B@h3{90.281}
+6a. exd4{65.653} 12b. Bxc3{57.605} 13B. bxc3{87.075} 7A. Ng5+{77.388}
+13b. O-O{53.273} 14B. Bxg2{83.986} 14b. Bxf5{49.306} 7a. Kf8{53.231}
+15B. Bxf5{80.954} 8A. N@e6+{72.373} 15b. Qf6{44.342} 16B. Bxh7+{77.846}
+16b. Kxh7{40.153} 17B. Qh5+{74.773} 8a. dxe6{41.72} 17b. Qh6{35.803}
+9A. Nxe6+{67.524} 18B. N@g5+{71.75} 18b. Kg8{31.603} 19B. @h7+{68.696}
+19b. Kh8{28.028} 9a. Bxe6{29.037} 20B. Nxf7+{65.198} 10A. @h6{63.221}
+20b. Rxf7{23.639} 21B. Qxf7{62.104} 10a. Rg8{18.607} 21b. Qxh7{19.605}
+22B. Bg5{58.911} 11A. hxg7+{57.273} 22b. Rf8{15.064} 23B. Qxf8+{55.808}
+23b. Qg8{10.696} 24B. N@f7+{52.701} 11a. Rxg7{5.56} 24b. Kh7{5.517}
+12A. B@h6{52.117} 25B. @g6+{49.675} 1-0
+

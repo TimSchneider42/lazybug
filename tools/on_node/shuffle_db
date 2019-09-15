@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+DATABASE=/work/scratch/kurse/kurs00028/$(whoami)/database
+echo "Backing up database..."
+cp -r ${DATABASE} ${DATABASE}_backup_tmp
+rm -rf ${DATABASE}_backup
+mv ${DATABASE}_backup_tmp ${DATABASE}_backup
+echo "Backup complete."
+python3 -u shuffle.py ${DATABASE}

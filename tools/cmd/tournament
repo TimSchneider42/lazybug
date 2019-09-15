@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+CMD=$1
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+$CMD -J tournament --ntasks=1 --mem-per-cpu=16000 --time=24:00:00 -C nvd $DIR/../on_node/tournament \
+    /home/kurse/kurs00028/so81egih/scratch/competition/groups \
+    /home/kurse/kurs00028/so81egih/scratch/competition/results \
+    mixed -t 120 -r 5

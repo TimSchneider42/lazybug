@@ -1,0 +1,38 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-08-04T22:04:56.498653"]
+[Round "30"]
+[Result "0-1"]
+[BlackA "ChuckHouse"]
+[BlackB "TandemTurtle"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[QRRBBNNPPPPPbbnnppppp] w KQkq - 0 1"]
+[ResultComment "on board a [0-1]: white ran out of time."]
+[SetUp "1"]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "LazyBug-MCTS"]
+[WhiteB "TJJ-Chess"]
+
+1A. e4{119.456} 1a. e6{119.69} 2A. Nc3{118.954} 2a. Nc6{119.484}
+3A. Nf3{118.434} 3a. Nf6{119.272} 4A. d4{117.917} 4a. Bb4{119.069}
+5A. Bd3{117.408} 5a. d5{118.864} 6A. e5{116.901} 6a. Ne4{118.666}
+7A. Bd2{116.4} 7a. Nxd4{118.456} 8A. Nxd4{115.857} 8a. Nxf2{118.253}
+9A. Kxf2{115.329} 9a. Qh4+{118.053} 10A. Kf1{114.815} 10a. Qxd4{117.861}
+11A. Qe2{114.305} 11a. Bd7{117.642} 12A. Be3{113.803} 12a. Qxe5{117.437}
+13A. Bd4{113.3} 13a. Qxd4{117.224} 14A. Nxd5{112.796} 14a. Qxd5{117.026}
+15A. Be4{112.281} 15a. Qc5{116.821} 16A. Rd1{111.777} 16a. O-O-O{116.613}
+17A. Bxb7+{111.279} 17a. Kxb7{116.41} 18A. a3{110.772} 18a. Bb5{116.205}
+19A. axb4{110.266} 19a. Bxe2+{116.002} 20A. Kxe2{109.745} 20a. Qxc2+{115.802}
+21A. Rd2{109.194} 21a. Rxd2+{115.592} 22A. Kf3{108.688} 22a. Re2{115.351}
+23A. Kg3{108.183} 23a. Rxg2+{115.149} 24A. Kf3{107.678} 24a. Rf2+{114.955}
+25A. Kg3{107.183} 25a. Rf6{114.74} 26A. Re1{106.668} 26a. Rh6{114.522}
+27A. Kf3{106.163} 27a. Rh3+{114.325} 28A. Kg4{105.654} 28a. Rd3{114.13}
+29A. Re4{105.155} 29a. f5+{113.928} 30A. Kf4{104.646} 30a. Rf8{113.711}
+31A. Ke5{104.142} 31a. fxe4{113.509} 32A. Kxe4{103.635} 32a. Rd2+{113.304}
+33A. Ke5{103.127} 33a. Rf5+{113.104} 34A. Kxe6{102.622} 34a. Rf6+{112.897}
+35A. Ke7{102.121} 35a. Rd1{112.671} 36A. b5{101.617} 36a. Rdd6{112.441}
+37A. Ke8{101.11} 37a. Rfe6+{112.229} 38A. Kf7{100.624} 38a. Rf6+{112.014}
+39A. Kxg7{100.132} 1B. d4{91.91} 39a. Rg6+{111.793} 40A. Kxh7{99.631}
+40a. Rdf6{111.578} 41A. Kh8{99.122} 41a. Rf7{111.368} 42A. b6{98.566}
+42a. Qxb2+{111.152} 1b. N@b4{110.657} 0-1
+

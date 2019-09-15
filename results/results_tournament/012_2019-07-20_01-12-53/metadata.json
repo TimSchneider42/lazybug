@@ -1,0 +1,55 @@
+{
+ "tournament_no": 12,
+ "participants": [
+  "group1",
+  "group2",
+  "group3"
+ ],
+ "wins": {
+  "group1": 1,
+  "group2": 0,
+  "group3": 0
+ },
+ "losses": {
+  "group1": 0,
+  "group2": 1,
+  "group3": 0
+ },
+ "draws": {
+  "group1": 0,
+  "group2": 0,
+  "group3": 0
+ },
+ "games": {
+  "1": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group2",
+    "B": "group2"
+   },
+   "result": "1-0",
+   "result_comment": "on board b [0-1]: white ran out of time."
+  },
+  "2": {
+   "configuration": {
+    "A": "group1",
+    "b": "group1",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/012_2019-07-20_01-12-53/012_002_2019-07-20_01-12-53.bpgn'\""
+  },
+  "3": {
+   "configuration": {
+    "A": "group2",
+    "b": "group2",
+    "a": "group3",
+    "B": "group3"
+   },
+   "result": "*",
+   "result_comment": "Game crashed with exception \"[Errno 2] No such file or directory: '/work/scratch/kurse/kurs00028/so81egih/competition/results/012_2019-07-20_01-12-53/012_003_2019-07-20_01-12-53.bpgn'\""
+  }
+ }
+}

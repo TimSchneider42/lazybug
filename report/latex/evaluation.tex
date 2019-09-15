@@ -1,0 +1,204 @@
+\section{Evaluation}
+\label{sec:evaluation}
+\autoref{fig:val_sign} shows the accuracy of the winner prediction over the course of the optimization.
+Unsurprisingly, the accuracy increases significantly when drawing closer to a mate.
+However, as these mates are not necessarily forced, it is impossible to reach 100\% here.
+Parts of the error might also come from the fact that even forced mates can be evaded by sitting or if the partner mates his opponent quicker.
+\autoref{fig:val_err} draws a similar picture for the mean absolute error of the value prediction.
+While a mean absolute error of 0.87 seems fairly bad at the first glance, it is important to note that the data also includes many early game positions, in which it is nearly impossible to predict the winner.
+Hence, the data sets containing positions close to a mate draw a much clearer picture on the actual accuracy of the value network.
+In \autoref{fig:pol} we see the accuracy of the policy predicting the move that was actually played in the presented position.
+
+\begin{figure*}
+	\begin{adjustbox}{width=0.9\textwidth}
+		\begin{tikzpicture}
+			\begin{axis}[
+			xmode= normal,
+			ymode= normal,
+			xlabel= seen positions,
+			ylabel= accuracy,
+			xtick distance= 20000000,
+			scaled x ticks=base 10:-6,
+			title={Value sign prediction accuracy},
+			grid=both,
+			minor grid style={gray!25},
+			major grid style={gray!25},
+			width=0.75\linewidth,
+			legend pos= outer north east,
+			legend cell align={left},
+			legend image post style={line width =2pt},
+			ymin=0.48,
+			ymax=1.02,
+			no marks]
+				\addplot[line width=0.5pt,solid,color=blue,smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/mate_in_1.csv};
+				\addlegendentry{Mate in 1};
+				\addplot[line width=0.5pt,solid,color=red, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/mate_in_2.csv};
+				\addlegendentry{Mate in 2};
+				\addplot[line width=0.5pt,solid,color=green, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/mate_in_3.csv};
+				\addlegendentry{Mate in 3};
+				\addplot[line width=0.5pt,solid,color=orange, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/mate_in_4.csv};
+				\addlegendentry{Mate in 4};
+				\addplot[line width=0.5pt,solid,color=black, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/mate_in_5.csv};
+				\addlegendentry{Mate in 5};
+				\addplot[line width=0.5pt,solid,color=purple, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/winner_prediction.csv};
+				\addlegendentry{Random positions};
+			\end{axis}
+		\end{tikzpicture}
+	\end{adjustbox}
+	\caption{
+	Winner prediction accuracy on different validation data sets over the course of the optimization.
+	The validation sets consist of positions taken from real human games.
+	A prediction is considered correct if the sign of the true game value was predicted correctly.
+	As the name suggests, the first 5 data sets contain only positions in which one player was mated within 1 to 5 moves.
+	}
+	\label{fig:val_sign}
+\end{figure*}
+
+\begin{figure*}
+	\begin{adjustbox}{width=0.9\textwidth}
+		\begin{tikzpicture}
+			\begin{axis}[
+			xmode= normal,
+			ymode= normal,
+			xlabel= seen positions,
+			ylabel= error,
+			xtick distance= 20000000,
+			scaled x ticks=base 10:-6,
+			title={Mean absolute error},
+			grid=both,
+			minor grid style={gray!25},
+			major grid style={gray!25},
+			width=0.75\linewidth,
+			legend pos= outer north east,
+			legend cell align={left},
+			legend image post style={line width =2pt},
+			ymin=0.38,
+			ymax=1.02,
+			no marks]
+				\addplot[line width=0.5pt,solid,color=blue, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/mean_error_mate_in_1.csv};
+				\addlegendentry{1};
+				\addplot[line width=0.5pt,solid,color=red, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/mean_error_mate_in_2.csv};
+				\addlegendentry{2};
+				\addplot[line width=0.5pt,solid,color=green, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/mean_error_mate_in_3.csv};
+				\addlegendentry{3 moves before mate};
+				\addplot[line width=0.5pt,solid,color=orange, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/mean_error_mate_in_4.csv};
+				\addlegendentry{4};
+				\addplot[line width=0.5pt,solid,color=black, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/mean_error_mate_in_5.csv};
+				\addlegendentry{5};
+				\addplot[line width=0.5pt,solid,color=purple, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/mean_error.csv};
+				\addlegendentry{Complete validation set};
+			\end{axis}
+		\end{tikzpicture}
+	\end{adjustbox}
+	\caption{
+	Mean absolute error of the value function on different validation data sets over the course of the optimization.
+	}
+	\label{fig:val_err}
+\end{figure*}
+\begin{figure*}
+	\begin{adjustbox}{width=0.9\textwidth}
+		\begin{tikzpicture}
+			\begin{axis}[
+			xmode= normal,
+			ymode= normal,
+			xlabel= seen positions,
+			ylabel= accuracy,
+			xtick distance= 20000000,
+			scaled x ticks=base 10:-6,
+			title={Policy accuracy},
+			grid=both,
+			minor grid style={gray!25},
+			major grid style={gray!25},
+			width=0.75\linewidth,
+			legend pos= outer north east,
+			legend cell align={left},
+			legend image post style={line width =2pt},
+			no marks]
+				\addplot[line width=0.5pt,solid,color=blue, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/accuracy_mate_in_1.csv};
+				\addlegendentry{1};
+				\addplot[line width=0.5pt,solid,color=red, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/accuracy_mate_in_2.csv};
+				\addlegendentry{2};
+				\addplot[line width=0.5pt,solid,color=green, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/accuracy_mate_in_3.csv};
+				\addlegendentry{3 moves before mate};
+				\addplot[line width=0.5pt,solid,color=orange, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/accuracy_mate_in_4.csv};
+				\addlegendentry{4};
+				\addplot[line width=0.5pt,solid,color=black, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/accuracy_mate_in_5.csv};
+				\addlegendentry{5};
+				\addplot[line width=0.5pt,solid,color=purple, smooth] %
+				table[x=Step,y=Column 1,col sep=comma]{resources/accuracy.csv};
+				\addlegendentry{Random Positions};
+			\end{axis}
+		\end{tikzpicture}
+	\end{adjustbox}
+	\caption{
+	Accuracy of the move prediction on different validation data sets over the course of the optimization.
+	}
+	\label{fig:pol}
+\end{figure*}
+
+We evaluated our model against conventional engines (\autoref{tab:engines}) and in multiple tournaments against the other groups (\autoref{tab:tournaments}).
+However, the results of the tournaments are not very conclusive as all teams reported significant performance issues on the tournament servers.
+Thus, instead of traversing the MCTS search tree we were forced to play using only the policy and always select the move with the highest probability.
+When we used our MCTS on a local machine\footnote{Intel i7 and NVIDIA GTX 1070} we are able to beat our standalone policy about 70\% of the time.
+The fact that the standalone policy won against our MCTS in 30\% of all cases indicates that much of the playing strength comes from the policy and the value function seems to be inaccurate in certain cases.
+\\\\
+As visible in \autoref{tab:engines}, the conventional engines we evaluated LazyBug against were Sjeng \cite{sjeng} and Sunsetter \cite{sunsetter}.
+Both use variants of quiescence search to evaluate the board position and potential moves.
+To the best of our knowledge, Sunsetter is the strongest open source Bughouse engine while Sjeng seems to have a lower playing strength.
+While we were able to beat Sjeng quite consistently, Sunsetter currently seems to be an even match for LazyBug.
+The interested reader is referred to our GitHub repository \cite{code} for the .bpgn files off all our evaluation games played.
+
+\begin{figure}
+	\begin{tabular}{ |c|c|c|c| }
+		\hline
+		Opponent & Wins & Draws & Losses \\
+		\hline \hline
+		\hline Sjeng & 47 & 0 & 3 \\
+		\hline Sunsetter & 27 & 1 & 22 \\
+		\hline Standalone Policy & 33 & 0 & 17  \\
+		\hline
+	\end{tabular}
+	\label{tab:engines}
+	\caption{
+	Results of LazyBug against Sjeng, Sunsetter and the Standalone Policy.
+	Time control was 5 minutes without increment.
+	}
+\end{figure}
+
+\begin{figure}
+	\begin{tabular}{ |c|c|c|c| }
+		\hline
+		Group & Wins & Draws & Losses \\
+		\hline \hline
+		\hline 1 & 157 	& 12 	& 36 \\
+		\hline 2 & 58 	& 12 	& 139 \\
+		\hline 3 & 143 	& 12 	& 49 \\
+		\hline 4 & 34 	& 12 	& 168  \\
+		\hline
+	\end{tabular}
+	\label{tab:tournaments}
+	\caption{
+		Results of the latest tournament on 25th of August 2019.
+		The groups played 5 games in each possible configuration with a time control of 2 minutes without increment.
+		LazyBug is group 1.
+	}
+\end{figure}
+
+

@@ -1,0 +1,21 @@
+\section{Time Management}
+In regular chess, time management consists solely on the question of how much time shall be allocated to think about the next move.
+Bughouse chess on the other hand adds a new level of complexity to this problem, as the clocks of each player might influence their decision making directly.
+For example, if the partner's opponent is low on time, it might be beneficial to play safe moves since your partner is likely going to win his board on time anyway.
+Thus, we broke down the problem of time management into time allocation and time-aware decision making.
+
+\subsection{Time allocation}
+While using a constant time to think about each move is the most straightforward way to tackle this problem, it comes with two mayor drawbacks.
+Firstly, on easy positions where the choice of the next move is clear, a lot of time might be wasted unnecessarily reconsidering an obvious choice.
+Secondly, on difficult positions with a lot of possible options, the time might be to short to consider all of them properly, leading to poor move choices.
+To deal with these problems, we developed a dynamic move time allocation, where after a minimum search time we continue generating nodes until one move has been visited in at least 40\% simulations.
+This enables LazyBug to allocate more time on hard positions and waste less time on easy positions.
+
+\subsection{Time-aware decision making}
+To take the clocks into account when generating move proposals, we feed the clocks into the neural network.
+However, during the MCTS simulations, we do not have the exact clocks, as we do not know how long the players would take to move in the respective positions.
+Hence, the move times during MCTS simulations need to be estimated.
+While one option is to simply learn the move times from the human generated data, we decided that this might lead to problems, since engines approach chess differently than human players, leading to imprecise time estimations.
+Instead we simply estimate the move times using the average of the previous 5 moves of each player.
+To avoid a horizon effect, we do not consider a player that ran out of time in simulation to lose the game.
+Instead the simulated players move faster as they approach a clock of zero.

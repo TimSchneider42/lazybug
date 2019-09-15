@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+S=$(realpath $DIR/..)
+
+rsync -avz $S/ hrz7:bughouse --exclude ".git" --exclude "/models" \
+    --delete --exclude "__pycache__" --exclude ".idea" --exclude "/venv" \
+    --exclude "/data_bpgn" --exclude "/data" --exclude "/report" --exclude "/resources" \
+    --exclude "/game_log" --exclude "/models_by_user" --exclude "/KEVIN" \
+    --exclude "node_modules"

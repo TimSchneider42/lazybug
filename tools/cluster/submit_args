@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+C=$1
+args=${@:3}
+module load cuda
+K=kurs00028
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+cd $DIR/../../code
+OUT_DIR=~/logs
+mkdir -p $OUT_DIR
+DATE=`date +%Y-%m-%d_%H-%M-%S`
+OUT_FILE="$OUT_DIR/${DATE}_${C}.log"
+touch $OUT_FILE
+echo "Logfile is $OUT_FILE"
+rm -f $OUT_DIR/latest
+ln -s $OUT_FILE $OUT_DIR/latest
+$DIR/../cmd/$C "sbatch -A $K -o $OUT_FILE -e $OUT_FILE -p $K --reservation=$K -J lazybug $2" $args

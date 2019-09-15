@@ -1,0 +1,22 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-07-26T00:46:18.765358"]
+[Round "18"]
+[Result "0-1"]
+[BlackA "debug_engine"]
+[BlackB "BlackB"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1"]
+[ResultComment "on board a [0-1]: white ran out of time."]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "WhiteA"]
+[WhiteB "debug_engine"]
+
+1B. e4{119.2} 1A. e4{101.312} 1a. Nf6{119.525} 1b. Nf6{101.397}
+2B. Nc3{118.805} 2b. Nc6{86.393} 2A. Nc3{85.523} 3B. Nf3{118.531}
+2a. Nc6{119.173} 3b. d5{72.534} 4B. exd5{118.25} 3A. Nf3{70.804}
+3a. e6{118.868} 4b. Nxd5{56.83} 5B. d4{117.934} 4A. d4{52.371} 4a. @b4{118.543}
+5b. e5{40.937} 6B. Bb5{117.594} 5A. Nb5{38.562} 5a. Nxe4{118.218}
+6b. Bb4{24.973} 7B. Bd2{117.293} 6A. Bd3{22.041} 6a. Nxf2{117.949}
+7b. Bxc3{7.042} 8B. bxc3{116.985} 7A. Kxf2{4.046} 7a. a6{117.59} 0-1
+

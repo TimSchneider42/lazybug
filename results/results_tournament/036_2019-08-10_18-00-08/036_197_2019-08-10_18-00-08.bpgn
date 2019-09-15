@@ -1,0 +1,19 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-08-11T05:00:36.250113"]
+[Round "36"]
+[Result "0-1"]
+[BlackA "ChuckHouse"]
+[BlackB "TJJ-Chess"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1"]
+[ResultComment "on board a [0-1]: white ran out of time."]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "TJJ-Chess"]
+[WhiteB "LazyBug-MCTS"]
+
+1B. e4{119.44} 1A. d4{90.104} 1a. e6{119.741} 1b. Nc6{90.272} 2B. Nc3{118.954}
+2A. Nc3{62.863} 2a. Nc6{119.523} 2b. d5{63.227} 3B. exd5{118.46}
+3A. Nf3{35.793} 3a. Nf6{119.277} 3b. Nf6{36.34} 4B. dxc6{117.957} 4A. h3{8.644}
+4a. Bb4{119.068} 4b. h6{9.37} 5B. cxb7{117.446} 0-1
+

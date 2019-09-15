@@ -1,0 +1,38 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-08-08T18:44:36.425787"]
+[Round "34"]
+[Result "0-1"]
+[BlackA "ChuckHouse"]
+[BlackB "TandemTurtle"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1"]
+[ResultComment "Player b (TandemTurtle) checkmated"]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "TandemTurtle"]
+[WhiteB "LazyBug-MCTS"]
+
+1B. e4{119.485} 1A. e4{106.613} 1a. e6{119.726} 1b. Nf6{106.51}
+2B. Nc3{118.814} 2A. d4{96.744} 2a. Nc6{119.452} 2b. d5{96.651}
+3B. exd5{118.148} 3A. Nc3{86.849} 3a. Nf6{119.182} 3b. Nxd5{86.845}
+4B. Nf3{117.476} 4A. Nf3{77.0} 4a. @b4{118.893} 4b. Nc6{77.06} 5B. d4{116.794}
+5A. Nb5{65.635} 5a. a6{118.619} 5b. e5{65.711} 6B. Bb5{116.106}
+6A. Nxc7+{54.163} 6a. Qxc7{118.348} 6b. Nf4{54.343} 7B. Bxf4{115.445}
+7A. e5{44.317} 7a. Ne4{118.069} 7b. Bd6{44.534} 8B. dxe5{114.729}
+8A. Bd3{34.515} 8a. Nxf2{117.775} 8b. @g5{34.775} 9B. exd6{114.031}
+9A. Kxf2{24.576} 9a. Nxd4{117.489} 10A. Nxd4{24.331} 10a. Qxe5{117.22}
+11A. @g6{24.089} 11a. Bc5{116.954} 12A. gxh7{23.856} 12a. Bxd4+{116.646}
+13A. Kf1{23.605} 13a. @g3{116.372} 14A. hxg3{23.371} 9b. cxd6{25.527}
+14a. N@f6{116.104} 15A. @c5{23.17} 10B. Bxd6{113.537} 15a. Bxc5{115.891}
+16A. Qe1{22.935} 16a. @e3{115.617} 17A. Bb5{22.689} 17a. axb5{115.339}
+18A. Bxe3{22.456} 18a. Bxe3{115.08} 19A. Rh3{22.221} 19a. B@a6{114.823}
+20A. Rh2{21.983} 20a. Ng4{114.552} 21A. Qe2{21.739} 21a. Nxh2+{114.282}
+22A. Ke1{21.474} 22a. Qxg3+{113.965} 23A. Kd1{21.242} 23a. Nf3{113.668}
+24A. Qxf3{20.993} 24a. Qxf3+{113.385} 25A. gxf3{20.751} 25a. Rxh7{113.119}
+26A. f4{20.518} 26a. Rh1+{112.844} 27A. Ke2{20.261} 27a. Bb6{112.586}
+28A. Rxh1{20.023} 28a. Bc7{112.324} 29A. Rh4{19.781} 29a. Bb6{112.018}
+30A. c4{19.541} 30a. bxc4{111.749} 31A. Rg4{19.304} 31a. c3+{111.458}
+10b. Qxd6{17.115} 32A. Ke1{19.06} 32a. cxb2{111.249} 11B. Qxd6{112.984}
+33A. B@d3{18.847} 33a. Bxd3{110.911} 11b. N@a5{16.662} 34A. Kd2{18.61}
+34a. Q@c2+{110.71} 12B. N@c7#{112.427} 0-1
+

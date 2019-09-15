@@ -1,0 +1,38 @@
+[Event "TU Darmstadt Bughouse Championship"]
+[Site ""]
+[Date "2019-08-24T22:15:43.753581"]
+[Round "45"]
+[Result "1-0"]
+[BlackA "ChuckHouse"]
+[BlackB "TandemTurtle"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[] w KQkq - 0 1 | rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[BBNNPPPPqrrbbnnpppp] w KQkq - 0 1"]
+[ResultComment "Player a (ChuckHouse) checkmated"]
+[SetUp "1"]
+[TimeControl "120+0"]
+[Variant "Bughouse"]
+[WhiteA "LazyBug-MCTS"]
+[WhiteB "TJJ-Chess"]
+
+1A. e4{119.475} 1a. e6{119.626} 2A. Nc3{118.965} 2a. Nc6{119.416}
+3A. Nf3{118.451} 3a. Nf6{119.215} 4A. d4{117.933} 4a. Bb4{119.019}
+5A. Bd3{117.434} 5a. d5{118.816} 6A. e5{116.926} 6a. Ne4{118.615}
+7A. Bd2{116.416} 7a. Nxd4{118.412} 8A. Nxd4{115.919} 8a. Nxf2{118.224}
+9A. Kxf2{115.419} 9a. Qh4+{118.022} 10A. Kf1{114.915} 10a. Qxd4{117.814}
+11A. Qe2{114.409} 11a. h5{117.616} 12A. Nb5{113.854} 12a. Bxd2{117.403}
+13A. Nxd4{113.318} 13a. Bf4{117.193} 14A. Bb5+{112.819} 14a. c6{116.986}
+15A. Nxc6{112.312} 15a. bxc6{116.782} 16A. Bxc6+{111.816} 16a. Ke7{116.575}
+17A. Bxa8{111.315} 17a. Bd7{116.374} 18A. Rd1{110.814} 18a. Rxa8{116.179}
+19A. Qxh5{110.31} 19a. Bb5+{115.977} 20A. Ke1{109.812} 20a. Bxe5{115.773}
+21A. Qxe5{109.303} 21a. f6{115.561} 22A. Qc7+{108.798} 22a. Bd7{115.332}
+23A. Rf1{108.301} 23a. Rc8{115.109} 24A. Qxa7{107.768} 24a. Rxc2{114.853}
+25A. Rd2{107.21} 25a. Rc1+{114.656} 26A. Ke2{106.7} 26a. Rc6{114.446}
+27A. Qa3+{106.209} 27a. Kf7{114.231} 28A. Qe3{105.706} 28a. Ra6{114.027}
+29A. Kf2{105.201} 29a. Rd6{113.823} 30A. Kg1{104.696} 30a. Bc6{113.621}
+31A. Rdf2{104.192} 31a. Ke7{113.422} 32A. Qc5{103.687} 32a. e5{113.22}
+33A. Qa7+{103.199} 33a. Rd7{113.016} 34A. Qc5+{102.696} 34a. Kf7{112.816}
+35A. Qxc6{102.187} 35a. Rd8{112.615} 36A. Qc7+{101.682} 36a. Rd7{112.411}
+37A. Qxd7+{101.172} 37a. Kg6{112.218} 38A. Qe8+{100.659} 38a. Kh7{112.02}
+39A. Qf7{100.137} 39a. d4{111.815} 1B. d4{91.674} 40A. Rxf6{99.616}
+40a. d3{111.617} 41A. Qg6+{99.12} 41a. Kg8{111.4} 42A. Rf7{98.63}
+42a. d2{111.202} 43A. Rxg7+{98.14} 43a. Kh8{110.983} 44A. Qh7#{97.65} 1-0
+

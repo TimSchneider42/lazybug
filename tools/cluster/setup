@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+mkdir temp
+cd temp
+wget --output-document=conda.sh https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
+chmod u+x conda.sh
+./conda.sh
+cd ..
+rm -rf temp
+
+echo "export LD_LIBRARY_PATH=~/anaconda3/lib:$LD_LIBRARY_PATH" >> ~/.bashrc
+echo "export PATH=~/bughouse/tools/cluster/:$PATH" >> ~/.bashrc
+
+source ~/.bashrc
+
+conda install keras-gpu
+conda install -c conda-forge websocket-client 
+mkdir logs

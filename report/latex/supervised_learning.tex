@@ -1,0 +1,23 @@
+\subsection{Supervised Learning}
+\label{subsec:sl}
+As stated before, the neural network is trained in supervised learning fashion on human games.
+Hence, the policy head is trained to predict the next move played given a board position and the value head is trained to predict if the moving player's team is winning (1) or the opposing team is winning (-1).
+Both heads are trained jointly, with the loss function being the sum of a cross-entropy loss for the policy head and mean-squared-error loss for the value head.
+To ensure that the losses are balanced, the policy loss is multiplied with a factor of 0.01.
+Currently, we use a batch size of 256 and a static learning rate of 0.02, but these hyperparameters are likely to change in the future.
+We obtain our data from a large database of Bughouse games\cite{bughouseDatabase}, which were played on \texttt{freechess.org}~\cite{freechess}.
+The database contains over 3.7 million games, comprised of roughly 380 million positions and is thus sufficiently large to train a reasonably sized network as ours.
+To ensure the quality of our data, we only consider games played by the top 10\% of the players in terms of their elo rating.
+% Since the networks objective is to predict human moves with its policy head and
+% The games are available for download in the .bpgn data format which is an extension of the .pgn data format used in regular chess.
+% To parse .bpgn files, we extended the parsing for regular .pgn files from \texttt{python-chess} \cite{pychess} in our own fork \cite{pychesstim}.
+% A game saved in .bpgn is the record of all moves that have been done so far.
+% For machine learning however we require a position based representation.
+% Therefore we implemented a python program to transform a .bpgn into this representation.
+% Each game needs to be split into several states representing the position at the current step and the next move that has been made.
+% Therefore we need to play through every game and save each position.
+% While doing this, we also filter out all games that took less then 5 turns (on both boards combined) or could not get parsed correctly.
+% We do this to filter out incorrect games.
+% Currently our prepossessing pipeline is being run every time before we start training.
+% We are implementing a way to store the data directly in the input format of the neural network.
+% This will then also be used to shuffle the data, to get more variance inside the batches.
