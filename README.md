@@ -1,2 +1,2 @@
 # LazyBug
-LazyBug - A Neural Network Engine
+LazyBug - A Neural Bughouse Engine
